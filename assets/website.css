@@ -1,0 +1,47 @@
+.icon {
+  float: left; 
+  width:100px; 
+  height:100px;
+  padding:0em 1em 1em 0em;
+}
+
+.invisitable {
+  border: none;
+  width:600px;
+}
+
+.invisitable td {
+  text-align: center;
+  width:20em;
+}
+
+.invisitable img {
+  border-radius:50%; 
+  border:1px solid #959396; 
+  background:#959396;
+  width:150px;
+  filter: grayscale(50%);
+}
+
+h2 {
+  margin: 0em 0em 2em 0em;
+  padding: 1em 0em 0em 0em;
+}
+
+hr {
+  border: solid 2px black;
+  margin: 4em 0em 3em 0em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(87, 135, 167);
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+#cnt > p {
+  margin: 0px 0px 0px 0px;
+}

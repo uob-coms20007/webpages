@@ -1,0 +1,71 @@
+- num: 1
+  lecturer: SR
+  description: Transition systems
+  videos: 
+  labs: 
+
+- num: 2
+  lecturer: SR
+  description: Deterministic automata
+  videos: 
+  labs: 
+
+- num: 3
+  lecturer: SR
+  description: Nondeterminism
+  videos: 
+  labs: 
+
+- num: 4
+  lecturer: SR
+  description: Regular languages
+  videos: 
+  labs: 
+
+- num: 5
+  lecturer: FD
+  description: The WHILE language
+  videos: 
+  labs:
+
+- num: 6
+  lecturer:
+  description: 
+  videos: 
+  labs:
+
+- num: 7
+  lecturer: FD
+  description: Operational semantics
+  videos: 
+  labs:
+
+- num: 8
+  lecturer: FD
+  description: Compilation (or other topics)
+  videos: 
+  labs:
+
+- num: 9
+  lecturer: AK
+  description: Computability
+  videos: 
+  labs:
+
+- num: 10
+  lecturer: AK
+  description: Universality of While
+  videos: 
+  labs:
+
+- num: 11
+  lecturer: AK
+  description: Undecidability
+  videos: 
+  labs:
+
+- num: 12
+  lecturer: 
+  description: 
+  videos: 
+  labs:

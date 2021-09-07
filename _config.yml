@@ -1,0 +1,9 @@
+
+
+collections:
+  questions:
+    output: true
+    permalink: /:collection/:name
+  answers:
+    output: true
+    permalink: /:collection/:name
