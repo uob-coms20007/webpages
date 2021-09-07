@@ -1,9 +1,5 @@
 name: Deploy Blackboard Webpages
-on:
-  push:
-    paths:
-      - 'website/**'
-  workflow_dispatch:
+on: [push, workflow_dispatch]
 jobs:
   buildAndDeploy:
     runs-on: ubuntu-latest
@@ -11,18 +7,13 @@ jobs:
 
       - uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+      - uses: ruby/setup-ruby@v1
+          with: 
+            ruby-version: 2.6
 
-      - uses:  helaili/jekyll-action@v2
+      - uses: limjh16/jekyll-action-ts@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          jekyll_src: 'website'
-          build_only: true
+          enable_cache: true
 
       - uses: extractions/netrc@v1
         with:
@@ -31,6 +22,6 @@ jobs:
           password: ${{ secrets.DAV_PW }}
 
       - name: Deploy pages
-        working-directory: website/build
+        working-directory: _site
         run: find . -type f -exec curl -n -T {} 'https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20007_2021_TB-1/site{}' \;
 
