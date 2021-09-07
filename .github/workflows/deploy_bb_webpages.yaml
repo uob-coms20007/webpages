@@ -21,6 +21,10 @@ jobs:
           username: ${{ secrets.DAV_UN }}
           password: ${{ secrets.DAV_PW }}
 
+      - name: List files
+        working-directory: _site
+        run: find . -type f
+
       - name: Deploy pages
         working-directory: _site
         run: find . -type f -exec curl -n -T {} 'https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20007_2021_TB-1/site{}' \;
