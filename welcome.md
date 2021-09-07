@@ -41,11 +41,14 @@ This is a 20 credit unit, so you should expect to around 13 hours per week worki
 ![map and marker](/bbcswebdav/xid-15830567_4){: .icon }
 ## Navigating the course
 
-The course material is distributed over four locations:
-* This blackboard page
-* The practicals code repository
-* The reference book
-* The COMS20007 team
+The course material is distributed over three locations:
+* This [blackboard page][bb]
+* The [reference book][rf]
+* The labcode repository
+
+[bb]: (https://www.ole.bris.ac.uk/auth-saml/saml/login?apId=_183_1&redirectUrl=https%3A%2F%2Fwww.ole.bris.ac.uk%2Fwebapps%2Fblackboard%2Fexecute%2FcourseMain%3Fcourse_id%3D_247719_1)
+[rf]: (https://uob-coms20007.github.io/reference/)
+[lc]: (https://github.com/uob-coms20007/labcode.git)
 
 * * *
 
