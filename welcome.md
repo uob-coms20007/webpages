@@ -29,12 +29,12 @@ The unit is run by François Dupressoir, Alex Kavvos and Steven Ramsay.
 ![schedule](/bbcswebdav/xid-15830569_4){: .icon }
 ## Schedule
 
-This is a 20 credit unit, so you should expect to around 13 hours per week working on it.  There are 5 main activities:
-* __Prerecorded lectures.__ At the start of each week, three prerecorded lectures will be posted on the unit website which you need to watch in your own time.
-* __Online labs.__  Labs occur online every Wednesday 9am-11am and Friday 2pm-5pm, but will only be staffed by TAs for a subset of those hours, see [Labs](/labs.html)
-* __Problems.__ You will only learn on this unit by completing the problem sheets and exercises.  There is one sheet released each week.
-* __Lecturer Q&A.__ Each week there will be a one-hour Q&A with the lecturer, online at 1pm on every Tuesday.
-* __Reading/Revising.__  You will often benefit from alternative explanations of the same concepts, which would not fit into the time available for lectures.  You will need to spend time revising and rethinking topics before you can solve the associated problems.
+You should expect to around *12 hours per week* working on this unit.  There are 5 main activities:
+* __Prerecorded lectures (3 hr).__ At the start of each week, two hours of prerecorded lectures will be posted on the unit website which you need to watch in your own time.
+* __Labs (2 hr).__  Labs occur every Thursday 1pm-3pm.  Excepting Week 1, which is held in the Great Hall, labs are run in the Bill Brown Suite of Queens Building.
+* __Problem sheets (4 hr).__ You will only learn on this unit by completing the problem sheets.  There is one sheet released each week.  You will have some opportunity to spend time working on the sheets in labs, but you will likely need much longer to complete them fully in your own time.
+* __Lecturer Q&A (1 hr).__ Each week there will be a one-hour Q&A with the lecturers, online on Teams, at noon on every Monday.  The Q&A in Week 1 will be used as an introduction to the unit.
+* __Reading/Revising (2 hr).__  You will often benefit from alternative explanations of the same concepts, which would not fit into the time available for lectures.  You will need to spend time revising and rethinking topics before you can solve the associated problems.
 
 * * *
 
