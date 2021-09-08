@@ -43,12 +43,12 @@ You should expect to around *12 hours per week* working on this unit.  There are
 
 The course material is distributed over three locations:
 * This [blackboard page][bb]
-* The [reference book][rf]
-* The [labcode repository][lc]
+* The [reference book][rf]{: target="_blank" }
+* The [labcode repository][lc]{: target="_blank" }
 
 [bb]: https://www.ole.bris.ac.uk/auth-saml/saml/login?apId=_183_1&redirectUrl=https%3A%2F%2Fwww.ole.bris.ac.uk%2Fwebapps%2Fblackboard%2Fexecute%2FcourseMain%3Fcourse_id%3D_247719_1
 [rf]: https://uob-coms20007.github.io/reference/
-[lc]: https://github.com/uob-coms20007/labcode.git
+[lc]: https://github.com/uob-coms20007/labcode
 
 * * *
 
