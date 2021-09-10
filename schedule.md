@@ -102,3 +102,9 @@ title: schedule
 {% endunless %}
 {% endfor %}
 </div>
+
+<hr/>
+
+<div style="text-align: center; margin:0em 2em 2em 2em">
+  Icons in this course are from the '<a href="https://icons8.com/icons/carbon-copy" target="_blank">Hand Drawn</a>' icon collection by <a href="https://icons8.com/" target="_blank">Icons8</a>.
+</div>
