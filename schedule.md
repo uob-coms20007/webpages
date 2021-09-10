@@ -76,7 +76,7 @@ title: schedule
     <li>Reference:<br/>
         <div style="margin-left:1em">
         {% for ref in week.references %}
-          - <a href="{{ ref }}">{{ ref | split: '/' | last | split: '#' | last | replace: '-', ' ' }}</a><br/>
+          - <a href="{{ ref }}" target="_blank">{{ ref | split: '/' | last | split: '#' | last | replace: '-', ' ' }}</a><br/>
         {% endfor %}
         </div>
     </li>
