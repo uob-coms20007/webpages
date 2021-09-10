@@ -3,14 +3,14 @@ layout: default
 title: welcome
 ---
 
-![i icon](/bbcswebdav/xid-15830566_4){: .icon }
+![i icon](assets/icons8-info-100.png){: .icon }
 ## Welcome
 
 Welcome to the home of COMS20007: Programming Languages and Computation.  This unit introduces you to computability theory and to the theory of programming languages, which are two core areas of theoretical computer science.
 
 * * *
 
-![calendar](/bbcswebdav/xid-15830570_4){: .icon }
+![contacts](assets/icons8-smartphone-tablet-100.png){: .icon }
 ## Contacts
 
 The unit is run by François Dupressoir, Alex Kavvos and Steven Ramsay.
@@ -26,7 +26,7 @@ The unit is run by François Dupressoir, Alex Kavvos and Steven Ramsay.
 
 * * *
 
-![schedule](/bbcswebdav/xid-15830569_4){: .icon }
+![schedule](assets/icons8-schedule-100.png){: .icon }
 ## Schedule
 
 You should expect to around *12 hours per week* working on this unit.  There are 5 main activities:
@@ -38,7 +38,7 @@ You should expect to around *12 hours per week* working on this unit.  There are
 
 * * *
 
-![map and marker](/bbcswebdav/xid-15830567_4){: .icon }
+![map and marker](assets/icons8-map-marker-100.png){: .icon }
 ## Navigating the course
 
 The course material is distributed over three locations:
@@ -52,7 +52,7 @@ The course material is distributed over three locations:
 
 * * *
 
-![report card](/bbcswebdav/xid-15846076_4){: .icon } 
+![report card](assets/icons8-report-card-100.png){: .icon } 
 ## Assessment
 
 The unit is 100% assessed by a written exam in the January exam period.

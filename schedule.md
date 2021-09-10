@@ -9,7 +9,7 @@ title: schedule
 {% assign question_names = question_sheets | map: "basename" | join: "," | remove: "sheet" %}
 {% assign answer_names = answer_sheets | map: "basename" | join: "," | remove: "sheet" %}
 
-<img class="icon" src="/bbcswebdav/xid-15830569_4"/>
+<img class="icon" src="assets/icons8-schedule-100.png"/>
 <h2>At a glance</h2>
 
 <div style="margin-left: 2em">
@@ -52,7 +52,23 @@ title: schedule
 
 <hr/>
 
-<img class="icon" src="/bbcswebdav/xid-15830569_4">
+<img class="icon" src="assets/icons8-calendar-100.png"/>
+<h2>Day by day</h2>
+
+<div style="margin:0em 2em 0em 2em">
+  <div>It is helpful to think of each weeks of this unit as running Monday 1pm until the following Monday 1pm.  The pattern of working described below is strongly recommended.</div>
+  <div><img src="assets/weekly.svg" style="margin:2em 1em 2em 1em; max-width:40em" width="100%"/></div>
+  <div>
+    <b style="margin:1em">A</b> Watch all the lecture videos and spend at least 2 hours on the problem sheet<br/>
+    <b style="margin:1em">B</b> Work on the problem sheet in the lab and get help from the TAs<br/>
+    <b style="margin:1em">C</b> Spend up to another 2 hours finishing the problem sheet<br/>
+    <b style="margin:1em">D</b> Participate in the online Q&A with the lecturers to resolve any remaining concerns
+  </div>
+</div>
+
+<hr/>
+
+<img class="icon" src="assets/icons8-timeline-week-100.png">
 <h2>Week by week</h2>
 
 <div style="margin-left: 2em">
