@@ -1,9 +1,11 @@
-
-
-collections:
-  questions:
-    output: true
-    permalink: /:collection/:name
-  answers:
-    output: true
-    permalink: /:collection/:name
+defaults:
+  - scope:
+      path: "questions"
+    values:
+      sheet: true
+      question: true
+  - scope:
+      path: "answers"
+    values:
+      sheet: true
+      answer: true

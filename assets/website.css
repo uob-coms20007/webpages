@@ -28,6 +28,11 @@ h2 {
   padding: 1em 0em 0em 0em;
 }
 
+h3 {
+  margin:4em 0em 0em 0em;
+  padding: 0em 0em 0em 0em; 
+}
+
 hr {
   border: solid 2px black;
   margin: 4em 0em 3em 0em;
@@ -44,4 +49,8 @@ a:focus {
 
 #cnt > p {
   margin: 0px 0px 0px 0px;
+}
+
+li {
+  margin: 10px 0;
 }

@@ -1,71 +1,112 @@
 - num: 1
   lecturer: SR
-  description: Transition systems
+  theme: Transition systems
+  description: Introduction to transition systems as a simple model of computation and consider some of their principal features.  We introduce the idea of an *invariant* as a means of reasoning about the possible computations described by a transition system.
   videos: 
-  labs: 
+  references:
+    - https://uob-coms20007.github.io/reference/trsys.html#transition-systems
+    - https://uob-coms20007.github.io/reference/trsys.html#traces
+    - https://uob-coms20007.github.io/reference/trsys.html#determinism
+    - https://uob-coms20007.github.io/reference/trsys.html#reachable-configurations
+    - https://uob-coms20007.github.io/reference/inv.html#invariants
+    - https://uob-coms20007.github.io/reference/trsys/examples.html#traffic-light-example
+    - https://uob-coms20007.github.io/reference/trsys/examples.html#while-program-example
+    - https://uob-coms20007.github.io/reference/trsys/examples.html#chameleons-example
+    - https://uob-coms20007.github.io/reference/trsys/examples.html#circuit-example
 
 - num: 2
   lecturer: SR
-  description: Deterministic automata
+  theme: Deterministic automata
+  description: We introduce *deterministic automata* as a means to describe a certain class of string classifying computations.  
   videos: 
-  labs: 
+  references:
+    - strings-and-languages
+    - deterministic-finite-state-automata
+    - induced-transition-system
+    - language-recognised
 
 - num: 3
   lecturer: SR
-  description: Nondeterminism
+  theme: Nondeterminism
+  description: We introduce non-determinism and internal actions to our automata.  We show that, from every non-deterministic automaton we can obtain an equivalent deterministic automaton and thus deduce that there is no increase in expressive power.
   videos: 
-  labs: 
+  references:
+    - nondeterministic-finite-state-automata
+    - induced-transition-system
+    - language-recognised
+    - powerset-construction
 
 - num: 4
   lecturer: SR
-  description: Regular languages
-  videos: 
-  labs: 
+  theme: Regular languages
+  description: We introduce the class of regular languages as those that are recognisable by finite automata.  We show that this class is closed under various operations on languages but that it is ultimately limited - there are languages that are not regular.
+  videos:  
+  references:
+    - closure-under-regular-ops
+    - inexpressibility
 
 - num: 5
   lecturer: FD
-  description: The WHILE language
+  theme: The While language
+  description: We introduce the idea of programming language *syntax* and show how it can be described by a device called a grammar.  We consider some of the principal features of grammars and the trees they generate.
   videos: 
-  labs:
+  references:
+    - concrete-vs-abstract-syntax
+    - parse-trees-and-ambiguity
+    - while-program-syntax
+    - free variables
+    - substitution
 
 - num: 6
-  lecturer:
-  description: 
-  videos: 
-  labs:
 
 - num: 7
   lecturer: FD
-  description: Operational semantics
+  theme: Operational semantics
+  description: We introduce the idea of the *semantics* of a programming language and how the operational semantics of the While language can be described by a transition system.  We show how such a transition system can be specified by a system of rules associated with the syntax.
   videos: 
-  labs:
+  references:
+    - while-program-state
+    - semantics-of-expressions
+    - operational-semantics-of-while
 
 - num: 8
   lecturer: FD
-  description: Compilation (or other topics)
+  theme: Compilation (or other topics)
+  description:
   videos: 
-  labs:
+  references:
 
 - num: 9
   lecturer: AK
-  description: Computability
+  theme: Computability
+  description: To understand the fundamental limitations of computation, we consider the case of decision problems, and we argue that it suffices to consider decision problems on natural numbers.  A problem is said to be decidable whenever we can describe an algorithm to solve it.
   videos: 
-  labs:
+  references:
+    - decision-problems
+    - decidable-(recursive)
+    - semidecidable-(recursively-enumerable)
+    - decidability-of-automaton-emptiness
+    - decidability-of-while-program-membership
+    - decidability-of-existence-of-god
+    - coding-strings
+    - semidecidability-of-while-program-termination
 
 - num: 10
   lecturer: AK
-  description: Universality of While
+  theme: Universality of While
+  description: We argue that the While language is capable of describing any algorithm by illustrating, informally, that (a) language extensions do not add expressive power and (b) While already subsumes other models of computation.
   videos: 
-  labs:
+  references:
+    - church-turing-thesis
 
 - num: 11
   lecturer: AK
-  description: Undecidability
+  theme: Undecidability
+  description: We prove that the problem *While Program Termination* is undecidable.  We introduce the technique of *reduction* and deduce that a number of other problems are therefore also undecidable.
   videos: 
-  labs:
+  references:
+    - undecidability-of-while-program-termination
+    - undecidability-of-while-program-membership
+    - undecidability-of-equality-of-haskell-functions
 
 - num: 12
-  lecturer: 
-  description: 
-  videos: 
-  labs:
