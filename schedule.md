@@ -62,7 +62,7 @@ title: schedule
 
 <h3 id="week{{ week.num }}">Week {{ week.num }}: {{ week.theme }}</h3>
 <p> - <i style="font-size:90%">Lectured by {{ week.lecturer | replace: "SR", "Steven Ramsay" | replace: "FD", "François Dupressoir" | replace: "AK", "Alex Kavvos" }}</i></p>
-{{ week.description }}
+{{ week.description | markdownify }}
   <ul>
     {% if week.videos %}
     <li>Videos:</li>
