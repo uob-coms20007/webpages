@@ -4,11 +4,16 @@
   description: Introduction to transition systems as a simple model of computation and consider some of their principal features.  We introduce the idea of an *invariant* as a means of reasoning about the possible computations described by a transition system.
   videos: 
   references:
-    - https://uob-coms20007.github.io/reference/trsys.html#transition-systems
-    - https://uob-coms20007.github.io/reference/trsys.html#traces
-    - https://uob-coms20007.github.io/reference/trsys.html#determinism
-    - https://uob-coms20007.github.io/reference/trsys.html#reachable-configurations
-    - https://uob-coms20007.github.io/reference/inv.html#invariants
+    - https://uob-coms20007.github.io/reference/trsys.html#transition-system
+    - https://uob-coms20007.github.io/reference/trsys.html#successor
+    - https://uob-coms20007.github.io/reference/trsys.html#terminal
+    - https://uob-coms20007.github.io/reference/trsys.html#trace
+    - https://uob-coms20007.github.io/reference/trsys.html#complete-trace
+    - https://uob-coms20007.github.io/reference/trsys.html#deterministic-transition-system
+    - https://uob-coms20007.github.io/reference/trsys.html#reachable
+    - https://uob-coms20007.github.io/reference/trsys.html#transitions-to
+    - https://uob-coms20007.github.io/reference/invariance.html#invariant
+    - https://uob-coms20007.github.io/reference/invariance.html#inductive-invariant
     - https://uob-coms20007.github.io/reference/trsys/examples.html#traffic-light-example
     - https://uob-coms20007.github.io/reference/trsys/examples.html#while-program-example
     - https://uob-coms20007.github.io/reference/trsys/examples.html#chameleons-example
