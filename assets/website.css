@@ -47,7 +47,11 @@ a:focus {
   text-decoration: underline;
 }
 
-#cnt > p {
+#cnt > p:first-of-type {
+  margin: 0px 0px 0px 0px;
+}
+
+#cnt > hr + p {
   margin: 0px 0px 0px 0px;
 }
 
