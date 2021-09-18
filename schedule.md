@@ -13,6 +13,8 @@ title: schedule
 <h2>At a glance</h2>
 
 <div style="margin-left: 2em">
+<p>Links to the lecture videos, problem sheets and their solutions will appear here as the unit progresses.  Check <a href="#wbyw">below</a> for the links alongside accompanying information.</p>
+<br/>
 <table class="pure-table-striped pure-table">
   <!-- <thead>
     <tr> 
@@ -69,7 +71,7 @@ title: schedule
 <hr/>
 
 <img class="icon" src="assets/icons8-timeline-week-100.png">
-<h2>Week by week</h2>
+<h2 id="wbyw">Week by week</h2>
 
 <div style="margin-left: 2em">
 
