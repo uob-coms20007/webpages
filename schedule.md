@@ -3,6 +3,10 @@ layout: default
 title: schedule
 ---
 
+{% capture nowunix %}{{'now' | date: '%s' }}{% endcapture %}
+{% capture weekunix %}{{ 60 | times: 60 | times: 24 | times: 7 }}{% endcapture %}
+{% capture startunix  %}{{ '2021-09-27' | date: '%s'  }}{% endcapture %}
+
 {% assign question_sheets = site.static_files | where: "question", true %}
 {% assign answer_sheets = site.static_files | where: "answer", true %}
 
@@ -81,6 +85,9 @@ title: schedule
 <h3 id="week{{ week.num }}">Week {{ week.num }}: {{ week.theme }}</h3>
 <p> - <i style="font-size:90%">Lectured by {{ week.lecturer | replace: "SR", "Steven Ramsay" | replace: "FD", "François Dupressoir" | replace: "AK", "Alex Kavvos" }}</i></p>
 {{ week.description | markdownify }}
+  {% capture this_week_unix %}{{ week.num | minus: 1 | times: weekunix | plus: startunix }}{% endcapture %}
+  {% capture next_week_unix %}{{ week.num | times: weekunix | plus: startunix }}{% endcapture %}
+  {% if this_week_unix <= nowunix %}
   <ul>
     {% if week.videos %}
     <li>Videos:</li>
@@ -100,6 +107,7 @@ title: schedule
     </li>
     {% endif %}
   </ul>
+  {% endif %}
 
 {% endunless %}
 {% endfor %}

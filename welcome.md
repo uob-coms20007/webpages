@@ -39,11 +39,16 @@ The unit is run by François Dupressoir, Alex Kavvos and Steven Ramsay.  Send an
 *See [detailed schedule](schedule.html) for a comprehensive week-by-week synopsis.*
 
 You should expect to spend around *12 hours per week* working on this unit.  There are 5 main activities:
-* __Prerecorded lectures (3 hr).__ At the start of each week, two hours of recorded lectures will be posted on the unit website which you should watch in your own time.
-* __Labs (2 hr).__  Labs occur every Thursday 1pm-3pm.  Excepting Week 1, labs are run in the Bill Brown Suite of Queens Building.
-* __Problem sheets (4 hr).__ You will only learn on this unit by completing the problem sheets.  There is one sheet released each week.  You will spend time working on the sheets in labs, but you will likely need much longer to complete them fully in your own time.
-* __Lecturer Q&A (1 hr).__ Each week there will be a one-hour Q&A with the lecturers, online on Teams, at noon on every Monday.  The Q&A in Week 1 will be used as an introduction to the unit.
-* __Reading/Revising (2 hr).__  You will often benefit from alternative explanations of the same concepts, which would not fit into the time available for lectures.  You will need to spend time revising and rethinking topics before you can solve the associated problems.
+
+  * __Prerecorded lectures (3 hr).__ At the start of each week, two hours of recorded lectures will be posted on the unit website which you should watch in your own time.
+
+  * __Labs (2 hr).__  Labs occur every Thursday 1pm-3pm.  Excepting Week 1, labs are run in the Bill Brown Suite of Queens Building, *if you are able, please bring a laptop, pen and paper*.
+
+  * __Problem sheets (4 hr).__ You will only learn on this unit by completing the problem sheets.  There is one sheet released each week.  You will spend time working on the sheets in labs, but you will likely need much longer to complete them fully in your own time.
+
+  * __Lecturer Q&A (1 hr).__ Each week there will be a one-hour Q&A with the lecturers, online on Teams, at noon on every Monday.  The Q&A in Week 1 will be used as an introduction to the unit.
+
+  * __Reading/Revising (2 hr).__  You will often benefit from alternative explanations of the same concepts, which would not fit into the time available for lectures.  You will need to spend time revising and rethinking topics before you can solve the associated problems.
 
 
 
