@@ -3,21 +3,46 @@
   theme: Transition systems
   description: Introduction to transition systems as a simple model of computation and consider some of their principal features.  We introduce the idea of an *invariant* as a means of reasoning about the possible computations described by a transition system.
   videos: 
-  references:
-    - https://uob-coms20007.github.io/reference/trsys.html#transition-system
-    - https://uob-coms20007.github.io/reference/trsys.html#successor
-    - https://uob-coms20007.github.io/reference/trsys.html#terminal
-    - https://uob-coms20007.github.io/reference/trsys.html#trace
-    - https://uob-coms20007.github.io/reference/trsys.html#complete-trace
-    - https://uob-coms20007.github.io/reference/trsys.html#deterministic-transition-system
-    - https://uob-coms20007.github.io/reference/trsys.html#reachable
-    - https://uob-coms20007.github.io/reference/trsys.html#transitions-to
-    - https://uob-coms20007.github.io/reference/invariance.html#invariant
-    - https://uob-coms20007.github.io/reference/invariance.html#inductive-invariant
-    - https://uob-coms20007.github.io/reference/trsys/examples.html#traffic-light-example
-    - https://uob-coms20007.github.io/reference/trsys/examples.html#while-program-example
-    - https://uob-coms20007.github.io/reference/trsys/examples.html#chameleons-example
-    - https://uob-coms20007.github.io/reference/trsys/examples.html#circuit-example
+    - num: 1
+      dsc: Introduction to the definition of transition systems and the traffic light example.
+      dur: 21
+      url: https://web.microsoftstream.com/video/f2350538-7875-4dcc-9a79-ba3198877433
+      ref: 
+        - https://uob-coms20007.github.io/reference/trsys.html#transition-system
+        - https://uob-coms20007.github.io/reference/trsys.html#successor
+        - https://uob-coms20007.github.io/reference/trsys.html#trace
+        - https://uob-coms20007.github.io/reference/trsys.html#reachable
+        - https://uob-coms20007.github.io/reference/trsys.html#transitions-to
+    - num: 2
+      dsc: The While program transition system example.
+      dur: 21
+      url: https://web.microsoftstream.com/video/13d3c588-aa76-4ea4-a542-eb928c653148
+      ref: 
+        - https://uob-coms20007.github.io/reference/trsys.html#terminal
+        - https://uob-coms20007.github.io/reference/trsys.html#complete-trace
+    - num: 3
+      dsc: The chameleons transition system example, nondeterminism.
+      dur: 17
+      url: https://web.microsoftstream.com/video/ca2806d0-92f4-4ff4-8df5-46505782a4d7?list=studio
+      ref:
+        - https://uob-coms20007.github.io/reference/trsys.html#deterministic-transition-system
+    - num: 4
+      dsc: A safety property of the chameleons example, and how to argue it informally.
+      dur: 20
+      url: https://web.microsoftstream.com/video/cef410e5-7c36-4ea8-9e17-4494642548ad
+      ref:
+    - num: 5
+      dsc: Introducing the notion of transition system invariant.
+      dur: 24
+      url: https://web.microsoftstream.com/video/f0d9ef31-0290-4702-8126-2769563f3650
+      ref:
+        - https://uob-coms20007.github.io/reference/invariance.html#invariant
+    - num: 6
+      dsc: Inductive invariants and how to prove that a candidate invariant is one.
+      dur: 21
+      url: https://web.microsoftstream.com/video/e66c62f0-e6d7-4307-aac6-18c0db920bcf
+      ref:
+        - https://uob-coms20007.github.io/reference/invariance.html#inductive-invariant
 
 - num: 2
   lecturer: SR

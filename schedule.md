@@ -30,6 +30,8 @@ title: schedule
       <td colspan="3" style="text-align:center">Welcome Week</td>
     </tr>
     {% for week in site.data.weeks %}
+    {% capture this_week_unix %}{{ week.num | minus: 1 | times: weekunix | plus: startunix }}{% endcapture %}
+    {% capture next_week_unix %}{{ week.num | times: weekunix | plus: startunix }}{% endcapture %}
     {% if week.num == 6 %}
     <tr>
       <td colspan="3" style="text-align:center">Reading Week</td>
@@ -40,14 +42,21 @@ title: schedule
     </tr>
     {% else %}
     <tr> 
-      <td><a href="#week{{ week.num }}">Week {{ week.num }}: {{week.theme}}</a></td><td>{{week.videos}}</td>
+      <td><a href="#week{{ week.num }}">Week {{ week.num }}: {{week.theme}}</a></td>  
       <td>
-        {% if question_names contains week.num %}
+        {% if this_week_unix <= nowunix %}
+          {% for v in week.videos %}
+            <a href="{{ v.url }}" target="_blank">{{ v.num }}</a> 
+          {% endfor %}
+        {% endif %}
+      </td>
+      <td>
+      {% if this_week_unix <= nowunix %}
         <a href="questions/sheet{{ week.num }}.pdf">qns</a>
-        {% endif %}
-        {% if answer_names contains week.num %}
+      {% endif %}
+      {% if next_week_unix <= nowunix %}
          / <a href="answers/sheet{{ week.num }}.pdf">ans</a>
-        {% endif %}
+      {% endif %}
       </td>
     </tr>
     {% endif %}
@@ -88,25 +97,27 @@ title: schedule
   {% capture this_week_unix %}{{ week.num | minus: 1 | times: weekunix | plus: startunix }}{% endcapture %}
   {% capture next_week_unix %}{{ week.num | times: weekunix | plus: startunix }}{% endcapture %}
   {% if this_week_unix <= nowunix %}
-  <ul>
-    {% if week.videos %}
-    <li>Videos:</li>
-    {% endif %}
-    {% if question_names contains week.num %}
-    <li>
-      Labs: <a href="questions/sheet{{ week.num }}.pdf">qns</a>{% if answer_names contains week.num %} / <a href="answers/sheet{{ week.num }}.pdf">ans</a>{% endif %}
-    </li>
-    {% endif %}
-    {% if week.references %}
-    <li>Reference:<br/>
-        <div style="margin-left:1em">
-        {% for ref in week.references %}
-          - <a href="{{ ref }}" target="_blank">{{ ref | split: '/' | last | split: '#' | last | replace: '-', ' ' }}</a><br/>
+  <p>Videos:
+      <ul>
+        {% for v in week.videos %}
+          <li>
+            <a href="{{ v.url }}" target="_blank">W{{ week.num }}V{{ v.num }}</a>: {{ v.dsc }} <i>({{ v.dur }} mins)</i><br/>
+            {% if v.ref %}
+              <ul>
+              {% for r in v.ref %}
+                <li><a href="{{ r }}" target="_blank">{{ r | split: '/' | last | split: '#' | last | replace: '-', ' ' }}</a></li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
         {% endfor %}
-        </div>
-    </li>
+      </ul>
+  </p>
+    {% if question_names contains week.num %}
+    <p>
+      Labs: <a href="questions/sheet{{ week.num }}.pdf">qns</a>{% if answer_names contains week.num %} / <a href="answers/sheet{{ week.num }}.pdf">ans</a>{% endif %}
+    </p>
     {% endif %}
-  </ul>
   {% endif %}
 
 {% endunless %}
