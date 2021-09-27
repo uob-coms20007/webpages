@@ -69,7 +69,7 @@ The unit is distributed over four locations:
 
 * The [labcode repository][lc]{: target="_blank" } which contains the starter code for the Haskell-based problem sheets.
 
-* The [COMS20007 Team](te){: target="_blank" }, where we host the lecturer Q&As, the online labs and the discussion board.
+* The [COMS20007 Team](te){: target="_blank" }, where we host the lecturer Q&As, the online version of the labs and the discussion board.
 
 [bb]: https://www.ole.bris.ac.uk/auth-saml/saml/login?apId=_183_1&redirectUrl=https%3A%2F%2Fwww.ole.bris.ac.uk%2Fwebapps%2Fblackboard%2Fexecute%2FcourseMain%3Fcourse_id%3D_247719_1
 [rf]: https://uob-coms20007.github.io/reference/
