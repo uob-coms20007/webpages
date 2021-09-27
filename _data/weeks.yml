@@ -8,11 +8,11 @@
       dur: 21
       url: https://web.microsoftstream.com/video/f2350538-7875-4dcc-9a79-ba3198877433
       ref: 
-        - https://uob-coms20007.github.io/reference/trsys.html#transition-system
-        - https://uob-coms20007.github.io/reference/trsys.html#successor
-        - https://uob-coms20007.github.io/reference/trsys.html#trace
-        - https://uob-coms20007.github.io/reference/trsys.html#reachable
-        - https://uob-coms20007.github.io/reference/trsys.html#transitions-to
+        - https://uob-coms20007.github.io/reference/trsys/trsys.html#transition-system
+        - https://uob-coms20007.github.io/reference/trsys/trsys.html#successor
+        - https://uob-coms20007.github.io/reference/trsys/trsys.html#trace
+        - https://uob-coms20007.github.io/reference/trsys/trsys.html#reachable
+        - https://uob-coms20007.github.io/reference/trsys/trsys.html#transitions-to
     - num: 2
       dsc: The While program transition system example.
       dur: 21
