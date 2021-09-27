@@ -36,13 +36,13 @@
       dur: 24
       url: https://web.microsoftstream.com/video/f0d9ef31-0290-4702-8126-2769563f3650
       ref:
-        - https://uob-coms20007.github.io/reference/invariance.html#invariant
+        - https://uob-coms20007.github.io/reference/trsys/invariance.html#invariant
     - num: 6
       dsc: Inductive invariants and how to prove that a candidate invariant is one.
       dur: 21
       url: https://web.microsoftstream.com/video/e66c62f0-e6d7-4307-aac6-18c0db920bcf
       ref:
-        - https://uob-coms20007.github.io/reference/invariance.html#inductive-invariant
+        - https://uob-coms20007.github.io/reference/trsys/invariance.html#inductive-invariant
 
 - num: 2
   lecturer: SR
