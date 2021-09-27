@@ -71,7 +71,7 @@ title: schedule
 <h2>Day by day</h2>
 
 <div style="margin:0em 2em 0em 2em">
-  <div>It is helpful to think of each weeks of this unit as running Monday 1pm until the following Monday 1pm.  The pattern of working described below is strongly recommended.</div>
+  <div>It is helpful to think of each week of this unit as running Monday 1pm until the following Monday 1pm.  The pattern of working described below is strongly recommended.</div>
   <div><img src="assets/weekly.svg" style="margin:2em 1em 2em 1em; max-width:40em" width="100%"/></div>
   <div>
     <b style="margin:1em">A</b> Watch all the lecture videos and spend at least 2 hours on the problem sheet<br/>
