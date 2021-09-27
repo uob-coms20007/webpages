@@ -18,14 +18,14 @@
       dur: 21
       url: https://web.microsoftstream.com/video/13d3c588-aa76-4ea4-a542-eb928c653148
       ref: 
-        - https://uob-coms20007.github.io/reference/trsys.html#terminal
-        - https://uob-coms20007.github.io/reference/trsys.html#complete-trace
+        - https://uob-coms20007.github.io/reference/trsys/trsys.html#terminal
+        - https://uob-coms20007.github.io/reference/trsys/trsys.html#complete-trace
     - num: 3
       dsc: The chameleons transition system example, nondeterminism.
       dur: 17
       url: https://web.microsoftstream.com/video/ca2806d0-92f4-4ff4-8df5-46505782a4d7?list=studio
       ref:
-        - https://uob-coms20007.github.io/reference/trsys.html#deterministic-transition-system
+        - https://uob-coms20007.github.io/reference/trsys/trsys.html#deterministic-transition-system
     - num: 4
       dsc: A safety property of the chameleons example, and how to argue it informally.
       dur: 20
