@@ -49,11 +49,47 @@
   theme: Deterministic automata
   description: We introduce *deterministic automata* as a means to describe a certain class of string classifying computations.  
   videos: 
-  references:
-    - strings-and-languages
-    - deterministic-finite-state-automata
-    - induced-transition-system
-    - language-recognised
+    - num: 1
+      dsc: Informal introduction to deterministic finite state automata via examples.
+      url: https://web.microsoftstream.com/video/a986f0dc-843b-4a79-afe4-e8fdea76a62d
+      dur: 33
+      ref: 
+    - num: 2
+      dsc: The Haskell module identifiers example automaton.
+      url: https://web.microsoftstream.com/video/88fcc87c-bccd-4986-bc75-8b5ab8656ec4
+      dur: 17
+      ref:
+    - num: 3
+      dsc: Some basic notation and terminology to do with strings.
+      url: https://web.microsoftstream.com/video/c4d48c61-9f62-4463-9abc-79a0a9f20ac0
+      dur: 11
+      ref:
+        - https://uob-coms20007.github.io/reference/prereqs/strings.html#alphabet
+        - https://uob-coms20007.github.io/reference/prereqs/strings.html#letters
+        - https://uob-coms20007.github.io/reference/prereqs/strings.html#string
+        - https://uob-coms20007.github.io/reference/prereqs/strings.html#language
+        - https://uob-coms20007.github.io/reference/prereqs/strings.html#concatenating
+        - https://uob-coms20007.github.io/reference/prereqs/strings.html#$k$-fold-concatenation
+    - num: 4
+      dsc: The formal definition of deterministic finite state automata (DFA).
+      url: https://web.microsoftstream.com/video/1159b6e6-1387-4159-8390-b636349560cf
+      dur: 27
+      ref:
+        - https://uob-coms20007.github.io/reference/regular/dfa.html#Deterministic-Finite-State-Automaton-(DFA)
+        - https://uob-coms20007.github.io/reference/regular/dfa.html#transition-system-generated-by-an-DFA
+        - https://uob-coms20007.github.io/reference/regular/dfa.html#accepted
+        - https://uob-coms20007.github.io/reference/regular/dfa.html#recognised
+    - num: 5
+      dsc: Examples of the formal definition in use for describing particular automata.
+      url: https://web.microsoftstream.com/video/143dcf2b-dab2-49b7-b7de-ec1a179eb9ff
+      dur: 12
+      ref:
+    - num: 6
+      dsc: Using the formal definition in general statements and the product construction.
+      url: https://web.microsoftstream.com/video/f3138085-7d05-49f3-abec-d42031944bed
+      dur: 28
+      ref:
+        - https://uob-coms20007.github.io/reference/regular/product.html#product-automaton
 
 - num: 3
   lecturer: SR
