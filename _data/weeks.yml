@@ -96,11 +96,42 @@
   theme: Nondeterminism
   description: We introduce non-determinism and internal actions to our automata.  We show that, from every non-deterministic automaton we can obtain an equivalent deterministic automaton and thus deduce that there is no increase in expressive power.
   videos: 
-  references:
-    - nondeterministic-finite-state-automata
-    - induced-transition-system
-    - language-recognised
-    - powerset-construction
+    - num: 1
+      dsc: How to design finite state automata.
+      url: https://web.microsoftstream.com/video/01b4d9ae-cff6-4440-b91a-cde1ea8ce1d1
+      dur: 31
+      ref:
+    - num: 2
+      dsc: Introducing nondeterministic finite state automata (NFA).
+      url: https://web.microsoftstream.com/video/ed647767-4cfc-4809-a603-07a554055d92
+      dur: 25
+      ref:
+        - https://uob-coms20007.github.io/reference/regular/nfa.html#Nondeterministic-Finite-State-Automaton-(NFA)
+        - https://uob-coms20007.github.io/reference/regular/nfa.html#transition-system-generated-by-an-NFA
+        - https://uob-coms20007.github.io/reference/regular/nfa.html#accepted
+        - https://uob-coms20007.github.io/reference/regular/nfa.html#recognised
+    - num: 3
+      dsc: Nondeterminism as the ability to guess and verify.
+      url: https://web.microsoftstream.com/video/716e72de-a126-4861-9730-291d458b2b41
+      dur: 17
+      ref: 
+    - num: 4
+      dsc: Nondeterminism does not increase expressive power.
+      url: https://web.microsoftstream.com/video/967de0de-9c69-4ad6-8276-079abcd2092c
+      dur: 3
+      ref: 
+    - num: 5
+      dsc: Eliminating nondeterministic choice.
+      url: https://web.microsoftstream.com/video/ed3c17a6-d483-4140-835f-b45e4fce6fa0
+      dur: 21
+      ref:
+    - num: 6
+      dsc: Eliminating epsilon transitions.
+      url: https://web.microsoftstream.com/video/98969fc9-c001-40a0-b35d-2152b93e5b0b
+      dur: 14
+      ref: 
+        - https://uob-coms20007.github.io/reference/regular/powerset.html#epsilon-closure
+        - https://uob-coms20007.github.io/reference/regular/powerset.html#powerset-automaton
 
 - num: 4
   lecturer: SR
