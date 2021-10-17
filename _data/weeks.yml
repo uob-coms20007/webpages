@@ -138,9 +138,30 @@
   theme: Regular languages
   description: We introduce the class of regular languages as those that are recognisable by finite automata.  We show that this class is closed under various operations on languages but that it is ultimately limited - there are languages that are not regular.
   videos:  
-  references:
-    - closure-under-regular-ops
-    - inexpressibility
+    - num: 1
+      dsc: I describe how to construct a regular expression from an NFA. This content is not assessed in the final exam.
+      url: https://web.microsoftstream.com/video/657d40d2-9057-497f-850f-ded7cfddc27a
+      dur: 27
+      ref:
+    - num: 2
+      dsc: We introduce the regular languages and consider their closure under certain operations on sets of words.
+      url: https://web.microsoftstream.com/video/7d80c080-a65c-4b71-8354-f51b921b536b
+      dur: 15
+      ref:
+        - https://uob-coms20007.github.io/reference/regular/reg.html#regular-language
+        - https://uob-coms20007.github.io/reference/regular/reg.html#Regular-Closure
+    - num: 3
+      dsc: We prove that the language b^nc^n is not regular.
+      url: https://web.microsoftstream.com/video/af2cc36c-2a34-4952-9f6f-214cd9ea5fbe
+      dur: 25
+      ref:
+        - https://uob-coms20007.github.io/reference/regular/reg.html#Irregularity-of-$b^nc^n$
+    - num: 4
+      dsc: We distil the previous argument into the pumping lemma and apply it to an example.
+      url: https://web.microsoftstream.com/video/6ccdeeac-f95a-4a39-8bbe-4258440d702e
+      dur: 22
+      ref:
+        - https://uob-coms20007.github.io/reference/regular/reg.html#Pumping-Lemma
 
 - num: 5
   lecturer: FD
