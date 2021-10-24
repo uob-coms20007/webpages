@@ -167,13 +167,34 @@
   lecturer: FD
   theme: The While language
   description: We introduce the idea of programming language *syntax* and show how it can be described by a device called a grammar.  We consider some of the principal features of grammars and the trees they generate.
-  videos: 
-  references:
-    - concrete-vs-abstract-syntax
-    - parse-trees-and-ambiguity
-    - while-program-syntax
-    - free variables
-    - substitution
+  videos:
+    - num: 1
+      dsc: We (re)introduce a familiar way of describing computations—programming languages, and place it in the context of finite automata and transition systems. We discuss the *concrete syntax* of the While language with an example, and outline our roadmap towards turning programs into effective computations.
+      dur: 20
+      url: https://web.microsoftstream.com/video/2fb6b4e4-7db3-4b92-960b-33d493f3f86d
+      ref:
+        - while-factorial
+    - num: 2
+      dsc: We discuss *lexical analysis* (or scanning), which turns a stream of characters (the concrete syntax) into a stream of *tokens*.
+      dur: 26
+      url: https://web.microsoftstream.com/video/d3aadeaf-4cf2-49d1-ad84-55080f32b19e
+      ref:
+        - while-concrete#keywords
+        - while-abstract#tokens
+    - num: 3
+      dsc: We discuss *context-free grammars* and some of their properties, focusing on how to avoid *ambiguity*.
+      dur: 47
+      url: https://web.microsoftstream.com/video/e08caa57-d146-4c62-9eb7-25e1b4abce95
+      ref:
+        - while-abstract#tokens
+        - while-abstract#ast
+        - parsing-cfg
+        - parsing-ambiguity
+    - num: 4
+      dsc: We discuss *predictive parsing*, which is a straightforward way of writing recognizers and parsers for some context-free languages. This requires us to further fiddle with our grammar so its rules do not exhibit *left-recursion*.
+      dur: 20
+      url: https://web.microsoftstream.com/video/e38cdff4-1dfd-49fd-8a8a-b5a0b7fcfa60
+      ref:
 
 - num: 6
 
