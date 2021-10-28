@@ -179,17 +179,17 @@
       dur: 26
       url: https://web.microsoftstream.com/video/d3aadeaf-4cf2-49d1-ad84-55080f32b19e
       ref:
-        - while-concrete#keywords
-        - while-abstract#tokens
+        - https://uob-coms20007.github.io/reference/while/concrete-syntax.html#lexical-categories
+        - https://uob-coms20007.github.io/reference/while/abstract-syntax.html
     - num: 3
       dsc: We discuss *context-free grammars* and some of their properties, focusing on how to avoid *ambiguity*.
       dur: 47
       url: https://web.microsoftstream.com/video/e08caa57-d146-4c62-9eb7-25e1b4abce95
       ref:
-        - while-abstract#tokens
-        - while-abstract#ast
-        - parsing-cfg
-        - parsing-ambiguity
+        - https://uob-coms20007.github.io/reference/while/abstract-syntax.html
+        - https://uob-coms20007.github.io/reference/grammars/cfg.html#context-free-grammars
+        - https://uob-coms20007.github.io/reference/grammars/cfg.html#parse-trees
+        - https://uob-coms20007.github.io/reference/grammars/cfg.html#ambiguous-grammars
     - num: 4
       dsc: We discuss *predictive parsing*, which is a straightforward way of writing recognizers and parsers for some context-free languages. This requires us to further fiddle with our grammar so its rules do not exhibit *left-recursion*.
       dur: 20
