@@ -28,11 +28,15 @@ title: lab info
 
   * [Appel's *Modern Compiler Implementation in ML*](https://bris.on.worldcat.org/v2/oclc/985378534). There are also versions of this book "... in Java" and "... in C" for those who like to hurt themselves.  This covers the connection of automata and regular expressions with compilers quite well.
 
+* * *
+
 ## Compilation
 
   * [Appel's *Modern Compiler Implementation in ML*](https://bris.on.worldcat.org/v2/oclc/985378534) again. See the note above if you like to hurt yourself. This provides some more background on the practicalities of turning grammars into (efficient) parsers in general—rather than on a relatively simple example.
 
   * [Aho, Lam, Sethi and Ullman's *Compilers — Principles, Techniques and Tools*](https://bris.on.worldcat.org/v2/oclc/70775643). This one is a rather heavy mix of semi-formal foundations and engineering. It won't clarify much, but it will allow you to go deeper than we're taking you.
+
+* * *
 
 ## Operational (and Other) Semantics, Reasoning about Programs
 
