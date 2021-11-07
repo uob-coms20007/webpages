@@ -202,11 +202,37 @@
   lecturer: FD
   theme: Operational semantics
   description: We introduce the idea of the *semantics* of a programming language and how the operational semantics of the While language can be described by a transition system.  We show how such a transition system can be specified by a system of rules associated with the syntax.
-  videos: 
-  references:
-    - while-program-state
-    - semantics-of-expressions
-    - operational-semantics-of-while
+  videos:
+  - num: 1
+    dsc: We give meaning to arithmetic expressions, using this opportunity to define the states of While programs, and to highlight the often heavy overloading of mathematical symbols.
+    dur: 27
+    url: https://web.microsoftstream.com/video/628f4ba3-7950-4703-8b4f-46d4aab8728e
+    ref:
+      - https://uob-coms20007.github.io/reference/while/semantics.html#state
+      - https://uob-coms20007.github.io/reference/while/semantics.html#semantics-of-arithmetic-expressions
+  - num: 2
+    dsc: We give meaning to boolean expressions.
+    dur: 14
+    url: https://web.microsoftstream.com/video/d8481009-a09f-46aa-b74e-06d01a58b57b
+    ref: 
+      - https://uob-coms20007.github.io/reference/while/semantics.html#semantics-of-boolean-expressions
+  - num: 3
+    dsc: We give meaning to statements by defining—for all statements and states—a transition system that describes the computational trace of the program.
+    dur: 47
+    url: https://web.microsoftstream.com/video/0c50209e-f717-44b9-aba4-eff9ec9b545c
+    ref:
+      - https://uob-coms20007.github.io/reference/while/semantics.html#semantics-of-statements
+      - https://uob-coms20007.github.io/reference/trsys/trsys.html#transition-system
+      - https://uob-coms20007.github.io/reference/trsys/trsys.html#successor
+      - https://uob-coms20007.github.io/reference/trsys/trsys.html#trace
+      - https://uob-coms20007.github.io/reference/trsys/trsys.html#reachable
+      - https://uob-coms20007.github.io/reference/trsys/trsys.html#transitions-to
+      - https://uob-coms20007.github.io/reference/trsys/trsys.html#terminal
+      - https://uob-coms20007.github.io/reference/trsys/trsys.html#complete-trace
+  - num: 4
+    dsc: We informally reason about properties of the semantics (of all programs at once), and use the semantics to reason about properties of specific programs.
+    dur: TBD
+    url: TBD
 
 - num: 8
   lecturer: FD
