@@ -230,9 +230,13 @@
       - https://uob-coms20007.github.io/reference/trsys/trsys.html#terminal
       - https://uob-coms20007.github.io/reference/trsys/trsys.html#complete-trace
   - num: 4
-    dsc: We informally reason about properties of the semantics (of all programs at once), and use the semantics to reason about properties of specific programs.
-    dur: TBD
-    url: TBD
+    dsc: We discuss structural induction as a proof technique wfich allows us to reason about properties of the semantics (of all programs at once).
+    dur: 35
+    url: https://web.microsoftstream.com/video/745c8a50-4f7e-4a43-b20a-2bd08ed8922bs
+  - num: 5
+    dsc: We informally describe how the semantics will allow us to reason about properties of specific programs.
+    dur: 14
+    url: https://web.microsoftstream.com/video/c484c655-5a40-4347-9296-5a7ad9c8c7d6
 
 - num: 8
   lecturer: FD
