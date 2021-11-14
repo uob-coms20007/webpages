@@ -244,15 +244,29 @@
   description: We use the semantics of programs to prove properties about them, and to refine them down to lower levels of abstraction through compilation.
   videos:
   - nume: 1
-    dsc: We present the concepts of weakest precondition and loop invariants on some simple examples.
+    dsc: (Optional) We present the concepts of weakest precondition and loop invariants on some simple examples.
+    dur: 47
+    url: https://web.microsoftstream.com/video/9e75d06e-e5bc-4bd0-99e3-a121a9eb5678
   - num: 2
-    dsc: We prove some properties of the factorial program.
-  - num: 3
     dsc: We introduce the Abstract Machine and its semantics.
+    dur: 35
+    url: https://web.microsoftstream.com/video/91bf53a2-b2d2-4cbc-b77f-f99295318e6f
+  - num: 3
+    dsc: We discuss compilation, and the compilation of arithmetic expressions from the While language to the Abstract Machine.
+    dur: 37
+    url: https://web.microsoftstream.com/video/2c849e3d-1037-472a-ac62-a17235779d4f
   - num: 4
-    dsc: We discuss compilation, and the compilation of the While language to the Abstract Machine.
+    dsc: We discuss the compilation of boolean expressions from the While language to the Abstract Machine.
+    dur: 10
+    url: https://web.microsoftstream.com/video/57d88754-cda2-4f30-9af1-317a1d1d68e1
   - num: 5
-    dsc: We discuss what it would take to go beyond the Abstract Machine and towards register machines.
+    dsc: We discuss the full compilation of While programs into the Abstract Machine.
+    dur: 13
+    url: https://web.microsoftstream.com/video/e0401c42-86c8-4fea-8783-d2d56d227690
+  - num: 6
+    dsc: (Optional) We discuss compilation beyond the Abstract Machine and towards more realistic processing models.
+    dur: 34
+    url: https://web.microsoftstream.com/video/18b43ddb-1406-409f-9118-30116dc772c5
   references:
 
 - num: 9
