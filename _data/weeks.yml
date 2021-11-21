@@ -292,9 +292,11 @@
   - num: 5
     dur: 17
     dsc: The idea of bijections is introduced as a device for representing infinite data as natural numbers.
-    url: 
+    url: https://web.microsoftstream.com/video/a5a8f115-ec3b-4fb1-8d79-b9e5ef18a83c
   - num: 6
+    dur: 5
     dsc: We briefly cover what it means to compute 'under' a representation.
+    url: https://web.microsoftstream.com/video/74f96159-28e3-46bb-907f-80922074a493
   - num: 7
     dsc: The device of a section-retraction pair is introduced as a device for representing finite data as natural numbers.
   references:
