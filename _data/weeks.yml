@@ -299,6 +299,7 @@
     url: https://web.microsoftstream.com/video/74f96159-28e3-46bb-907f-80922074a493
   - num: 7
     dsc: The device of a section-retraction pair is introduced as a device for representing finite data as natural numbers.
+    url: about:blank
   references:
     - decision-problems
     - decidable-(recursive)
