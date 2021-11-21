@@ -272,8 +272,31 @@
 - num: 9
   lecturer: AK
   theme: Computability
-  description: To understand the fundamental limitations of computation, we consider the case of decision problems, and we argue that it suffices to consider decision problems on natural numbers.  A problem is said to be decidable whenever we can describe an algorithm to solve it.
+  description: In order to understand the limits of computation, we define the notions of computable functions and (semi-)decidable predicate over the natural numbers. We begin showing that all sorts of interesting data types can be encoded into the natural numbers.
   videos: 
+  - num: 1
+    dsc: Introduction to computability theory; the limits of computation.
+    dur: 9
+    url: https://web.microsoftstream.com/video/87ec8b2d-71f8-4026-a4f2-f6e370d817ac
+  - num: 2
+    dsc: We discuss functions, partial functions, and Kleene equality.
+    dur: 10
+  - num: 3
+    dsc: We introduce the idea of a computable function, and discuss various subtle details of the definition.
+    dur: 17
+    url: https://web.microsoftstream.com/video/856e5393-fdab-4c45-8953-aa1885d7fd11
+  - num: 4
+    dsc: After introducing computable functions, we turn to the notion of predicates. These are seen as computational YES/NO problems, which are decidable whenever their characteristic function is computable.
+    dur: 20
+    url: https://web.microsoftstream.com/video/72dc7e28-ae7e-4429-a40d-66c37e9a79bc
+  - num: 5
+    dur: 17
+    dsc: The idea of bijections is introduced as a device for representing infinite data as natural numbers.
+    url: 
+  - num: 6
+    dsc: We briefly cover what it means to compute 'under' a representation.
+  - num: 7
+    dsc: The device of a section-retraction pair is introduced as a device for representing finite data as natural numbers.
   references:
     - decision-problems
     - decidable-(recursive)
