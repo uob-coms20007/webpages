@@ -299,7 +299,7 @@
     dsc: We briefly cover what it means to compute 'under' a representation.
     url: https://web.microsoftstream.com/video/74f96159-28e3-46bb-907f-80922074a493
   - num: 7
-    dsc: Section-retraction pairs are introduced as a device for representing finite data as natural numbers.
+    dsc: Section-retraction pairs as a device for representing finite data as natural numbers.
     url: about:blank
   references:
     - decision-problems
