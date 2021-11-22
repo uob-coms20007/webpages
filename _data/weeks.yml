@@ -281,6 +281,7 @@
   - num: 2
     dsc: We discuss functions, partial functions, and Kleene equality.
     dur: 10
+    url: https://web.microsoftstream.com/video/e3143019-62ad-4e3f-8cb1-67f535cc149c
   - num: 3
     dsc: We introduce the idea of a computable function, and discuss various subtle details of the definition.
     dur: 17
