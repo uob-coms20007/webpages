@@ -282,29 +282,46 @@
     dsc: We discuss functions, partial functions, and Kleene equality.
     dur: 10
     url: https://web.microsoftstream.com/video/e3143019-62ad-4e3f-8cb1-67f535cc149c
+    ref:
+      - https://uob-coms20007.github.io/reference/prereqs/functions.html
   - num: 3
     dsc: We introduce the idea of a computable function, and discuss various subtle details of the definition.
     dur: 17
     url: https://web.microsoftstream.com/video/856e5393-fdab-4c45-8953-aa1885d7fd11
+    ref:
+      - https://uob-coms20007.github.io/reference/computability/functions.html#computes
+      - https://uob-coms20007.github.io/reference/computability/functions.html#computable
   - num: 4
     dsc: After introducing computable functions, we turn to the notion of predicates. These are seen as computational Yes/No problems, which are decidable whenever their characteristic function is computable.
     dur: 20
     url: https://web.microsoftstream.com/video/72dc7e28-ae7e-4429-a40d-66c37e9a79bc
+    ref:
+      - https://uob-coms20007.github.io/reference/computability/relations.html#characteristic-function
+      - https://uob-coms20007.github.io/reference/computability/relations.html#decidable
+      - https://uob-coms20007.github.io/reference/computability/relations.html#undecidable
+      - https://uob-coms20007.github.io/reference/computability/relations.html#semi-characteristic-function
+      - https://uob-coms20007.github.io/reference/computability/predicates.html#semi-decidable
   - num: 5
     dur: 17
     dsc: The idea of bijections is introduced as a device for representing infinite data as natural numbers.
     url: https://web.microsoftstream.com/video/a5a8f115-ec3b-4fb1-8d79-b9e5ef18a83c
+    ref:
+      - https://uob-coms20007.github.io/reference/computability/bijections.html#injective
+      - https://uob-coms20007.github.io/reference/computability/bijections.html#surjective
+      - https://uob-coms20007.github.io/reference/computability/bijections.html#bijections
+      - https://uob-coms20007.github.io/reference/computability/bijections.html#isomorphism
   - num: 6
     dur: 5
     dsc: We briefly cover what it means to compute 'under' a representation.
     url: https://web.microsoftstream.com/video/74f96159-28e3-46bb-907f-80922074a493
+    ref:
+      - https://uob-coms20007.github.io/reference/computability/reflection.html#reflection
   - num: 7
     dsc: Section-retraction pairs as a device for representing finite data as natural numbers.
     url: about:blank
+    ref:
+      - https://uob-coms20007.github.io/reference/computability/secretr.html#section-retraction-pair
   references:
-    - decision-problems
-    - decidable-(recursive)
-    - semidecidable-(recursively-enumerable)
     - decidability-of-automaton-emptiness
     - decidability-of-while-program-membership
     - decidability-of-existence-of-god
