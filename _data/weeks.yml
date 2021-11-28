@@ -322,29 +322,51 @@
     url: https://web.microsoftstream.com/video/bce2ae7c-490a-4e1a-b365-ee77232211c6
     ref:
       - https://uob-coms20007.github.io/reference/computability/secretr.html#section-retraction-pair
-  references:
-    - decidability-of-automaton-emptiness
-    - decidability-of-while-program-membership
-    - decidability-of-existence-of-god
-    - coding-strings
-    - semidecidability-of-while-program-termination
+
 
 - num: 10
   lecturer: AK
-  theme: Universality of While
-  description: We argue that the While language is capable of describing any algorithm by illustrating, informally, that (a) language extensions do not add expressive power and (b) While already subsumes other models of computation.
+  theme: Encodings & the Universal Function
+  description: We show how to encode essentially any first-order data type into the natural numbers. As a result, we obtain a notion of computability for functions between most first-order data types. Then, we turn to the encoding of While programs themselves as natural numbers; we show that this is indeed possible, giving rise to the notion of Gödel numbering. As a result, we are able to show that the universal function (i.e. a While interpreter) is a computable function. Finally, we discuss countability and uncountability.
   videos: 
-  references:
-    - church-turing-thesis
+    - num: 1
+      dsc: Encoding first-order data as natural numbers
+      dur: 20
+      url: https://web.microsoftstream.com/video/81f34b09-ab11-42c9-ac92-08483590615a
+      ref:
+        - https://uob-coms20007.github.io/reference/computability/encodings.html#pairing-function
+        - https://uob-coms20007.github.io/reference/computability/encodings.html#encoding-lists
+        - https://uob-coms20007.github.io/reference/computability/encodings.html#encoding-binary-trees
+    - num: 2
+      dsc: "Encoding While programs as natural numbers: Gödel numberings. (Please also refer to the reference material, which is perhaps clearer than the video.)"
+      dur: 11
+      url: https://web.microsoftstream.com/video/a9c14fe8-df7e-461e-bcae-134b1ea53b5f
+      ref:
+        - https://uob-coms20007.github.io/reference/computability/goedel.html#G%C3%B6del-numberings
+        - https://uob-coms20007.github.io/reference/computability/goedel.html#code-transformation
+    - num: 3
+      dsc: The Universal Function, interpreters, and their computability
+      dur: 18
+      url: https://web.microsoftstream.com/video/7aefbb5c-9396-46de-9c71-7aeb96c49447
+      ref:
+        - https://uob-coms20007.github.io/reference/computability/universal.html#universal-function
+        - https://uob-coms20007.github.io/reference/computability/universal.html#Theorem-(Kleene)
+        - https://uob-coms20007.github.io/reference/computability/universal.html#interpreter
+    - num: 4
+      dsc: "The Church-Turing thesis: all models of computation are equivalent"
+      dur: 10
+      url: https://web.microsoftstream.com/video/10968456-45cd-4ed4-be8b-76e39950e8eb
+      ref:
+        - https://uob-coms20007.github.io/reference/computability/universal.html#interpreter
+    - num: 5
+      dsc: Countability and uncountability
+      dur: 0
 
 - num: 11
   lecturer: AK
   theme: Undecidability
   description: We prove that the problem *While Program Termination* is undecidable.  We introduce the technique of *reduction* and deduce that a number of other problems are therefore also undecidable.
   videos: 
-  references:
-    - undecidability-of-while-program-termination
-    - undecidability-of-while-program-membership
-    - undecidability-of-equality-of-haskell-functions
+
 
 - num: 12
