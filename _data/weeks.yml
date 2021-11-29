@@ -327,7 +327,7 @@
 - num: 10
   lecturer: AK
   theme: Encodings & the Universal Function
-  description: We show how to encode essentially any first-order data type into the natural numbers. As a result, we obtain a notion of computability for functions between most first-order data types. Then, we turn to the encoding of While programs themselves as natural numbers; we show that this is indeed possible, giving rise to the notion of Gödel numbering. As a result, we are able to show that the universal function (i.e. a While interpreter) is a computable function. Finally, we discuss countability and uncountability.
+  description: We show how to encode essentially any first-order data type into the natural numbers. As a result, we obtain a notion of computability for functions between most first-order data types. Then, we turn to the encoding of While programs themselves as natural numbers; we show that this is indeed possible, giving rise to the notion of Goedel numbering. As a result, we are able to show that the universal function (i.e. a While interpreter) is a computable function. Finally, we discuss countability and uncountability.
   videos: 
     - num: 1
       dsc: Encoding first-order data as natural numbers
@@ -338,11 +338,12 @@
         - https://uob-coms20007.github.io/reference/computability/encodings.html#encoding-lists
         - https://uob-coms20007.github.io/reference/computability/encodings.html#encoding-binary-trees
     - num: 2
-      dsc: "Encoding While programs as natural numbers: Gödel numberings. (Please also refer to the reference material, which is perhaps clearer than the video.)"
+      dsc: "Encoding While programs as natural numbers: Goedel numberings. (Please also refer to the reference material, which is perhaps clearer than the video.)"
       dur: 11
       url: https://web.microsoftstream.com/video/a9c14fe8-df7e-461e-bcae-134b1ea53b5f
       ref:
         - https://uob-coms20007.github.io/reference/computability/goedel.html#G%C3%B6del-numberings
+        - https://uob-coms20007.github.io/reference/computability/church-turing.html#partial-recursive-functions
         - https://uob-coms20007.github.io/reference/computability/goedel.html#code-transformation
     - num: 3
       dsc: The Universal Function, interpreters, and their computability
@@ -358,9 +359,16 @@
       url: https://web.microsoftstream.com/video/10968456-45cd-4ed4-be8b-76e39950e8eb
       ref:
         - https://uob-coms20007.github.io/reference/computability/universal.html#interpreter
+        - https://uob-coms20007.github.io/reference/computability/church-turing.html#partial-recursive-functions
     - num: 5
-      dsc: Countability and uncountability
-      dur: 0
+      dsc: Countability
+      dur: 17
+      url: https://web.microsoftstream.com/video/cd9205e2-80e6-47d7-aafb-160304c379f4
+      ref:
+        - https://uob-coms20007.github.io/reference/computability/countability.html#countable
+        - https://uob-coms20007.github.io/reference/computability/countability.html#enumerate
+        - https://uob-coms20007.github.io/reference/computability/countability.html#power-set
+        - 
 
 - num: 11
   lecturer: AK
