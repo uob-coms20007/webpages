@@ -343,7 +343,6 @@
       url: https://web.microsoftstream.com/video/a9c14fe8-df7e-461e-bcae-134b1ea53b5f
       ref:
         - https://uob-coms20007.github.io/reference/computability/goedel.html#G%C3%B6del-numberings
-        - https://uob-coms20007.github.io/reference/computability/church-turing.html#partial-recursive-functions
         - https://uob-coms20007.github.io/reference/computability/goedel.html#code-transformation
     - num: 3
       dsc: The Universal Function, interpreters, and their computability
@@ -368,7 +367,6 @@
         - https://uob-coms20007.github.io/reference/computability/countability.html#countable
         - https://uob-coms20007.github.io/reference/computability/countability.html#enumerate
         - https://uob-coms20007.github.io/reference/computability/countability.html#power-set
-        - 
 
 - num: 11
   lecturer: AK
