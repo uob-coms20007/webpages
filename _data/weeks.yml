@@ -371,8 +371,34 @@
 - num: 11
   lecturer: AK
   theme: Undecidability
-  description: We prove that the problem *While Program Termination* is undecidable.  We introduce the technique of *reduction* and deduce that a number of other problems are therefore also undecidable.
-  videos: 
+  description: We introduce the Halting Problem, and prove that it is undecidable. Then, we introduce the technique of reductions, and use it to infer that a number of other problems are also undecidable. *The content for this week is more dense and mathematical than previous weeks. You may have to watch some of them more than once to fully understand what is going on.*
+  videos:
+    - num: 1
+      dsc: The Halting Problem
+      url: https://web.microsoftstream.com/video/942c6a2b-de5b-464d-827b-95041ba08d15
+      dur: 15
+      ref:
+        - https://uob-coms20007.github.io/reference/computability/halting.html
+    - num: 2
+      dsc: "The Halting Problem: The Proof"
+      url: https://web.microsoftstream.com/video/8acb27f0-ba47-4730-9377-3596760c0363
+      dur: 11
+      ref:
+        - https://uob-coms20007.github.io/reference/computability/halting.html
+        - https://uob-coms20007.github.io/reference/computability/halting.html#semidecidability-of-the-halting-problem
+    - num: 3
+      dsc: Reductions
+      dur: 25
+      url: https://web.microsoftstream.com/video/3a0f2988-b9f6-4d11-a222-7bae07640044
+      ref:
+        - https://uob-coms20007.github.io/reference/computability/reductions.html
+        - https://uob-coms20007.github.io/reference/computability/reductions.html#many-one-reduction
+    - num: 4
+      dsc: Rice's Theorem
+      dur: 10
+      url: https://web.microsoftstream.com/video/b65cf3fc-9877-47a7-92e4-1dbdbd7df2a7
+      ref:
+        - https://uob-coms20007.github.io/reference/computability/rice.html
 
 
 - num: 12
