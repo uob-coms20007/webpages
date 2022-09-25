@@ -77,7 +77,7 @@ The unit is distributed over four locations:
 
 * The [reference book][rf]{: target="_blank" }, which contains a reference version of technical material introduced in the lectures: you will need to refer to this when completing the problems.  
 
-* The [team](te){: target="_blank" }, where you post your questions and we do our best to answer them.
+* The [team][te]{: target="_blank" }, where you post your questions and we do our best to answer them.
 
 [bb]: https://www.ole.bris.ac.uk/auth-saml/saml/login?apId=_183_1&redirectUrl=https%3A%2F%2Fwww.ole.bris.ac.uk%2Fwebapps%2Fblackboard%2Fexecute%2FcourseMain%3Fcourse_id%3D_247719_1
 [rf]: https://uob-coms20007.github.io/reference/
