@@ -17,57 +17,79 @@ title: schedule
 <h2>At a glance</h2>
 
 <div style="margin-left: 2em">
-<p>Links to the lecture videos, problem sheets and their solutions will appear here as the unit progresses.  Check <a href="#wbyw">below</a> for the links alongside accompanying information.</p>
+<p>Links to the lecture synopsis, problem sheets and their solutions will appear here as the unit progresses.</p>
 <br/>
 <table class="pure-table-striped pure-table">
-  <!-- <thead>
+  <thead>
     <tr> 
-      <th>Week</th><th>By</th><th>Theme</th><th>Videos</th><th>Problems</th>
+      <th style="text-align:center">University<br>Week</th>
+      <th style="text-align:center">Monday 1pm Lecture<br><span style="font-weight:normal;font-style:italic">(Queens 1.40)</span></th>
+      <th style="text-align:center">Monday 4pm Lab<br><span style="font-weight:normal;font-style:italic">(MVB 1.15, 2.11)</span></th>
+      <th style="text-align:center">Friday 2pm Lecture<br><span style="font-weight:normal;font-style:italic">(Chemistry LT1)</span></th>
     </tr>
-  </thead> -->
+  </thead>
   <tbody>
     <tr>
-      <td colspan="3" style="text-align:center">Welcome Week</td>
+      <td colspan="4" style="text-align:center">Welcome Week</td>
     </tr>
-    {% for week in site.data.weeks %}
-    {% capture this_week_unix %}{{ week.num | minus: 1 | times: weekunix | plus: startunix }}{% endcapture %}
-    {% capture next_week_unix %}{{ week.num | times: weekunix | plus: startunix }}{% endcapture %}
-    {% if week.num == 6 %}
+{% for calendar_week in (1..12) %}
+  {% if calendar_week <= 6 %}
+    {% assign logical_week = calendar_week %}
+  {% else %}
+    {% assign logical_week = calendar_week | minus: 1 %}
+  {% endif %}
+  {% if calendar_week == 6 %}
     <tr>
-      <td colspan="3" style="text-align:center">Reading Week</td>
+      <td colspan="4" style="text-align:center">Reading Week</td>
     </tr>
-    {% elsif week.num == 12 %}
+  {% elsif calendar_week == 12 %}
     <tr>
-      <td colspan="3" style="text-align:center">Revision Week</td>
+      <td colspan="4" style="text-align:center">Revision Week</td>
     </tr>
-    {% else %}
+  {% else %}
     <tr> 
-      <td><a href="#week{{ week.num }}">Week {{ week.num }}: {{week.theme}}</a></td>  
-      <td>
-        {% if this_week_unix <= nowunix %}
-          {% for v in week.videos %}
-            <a href="{{ v.url }}" target="_blank">{{ v.num }}</a> 
-          {% endfor %}
-        {% endif %}
+    {% assign lec_one_idx = logical_week | minus:1 | times:2 %}
+      <td style="text-align:center"><a href="#lecture{{ lec_one_idx | plus: 1 }}">Week {{ calendar_week }}</a></td>  
+      <td style="text-align:center"> 
+    {% if site.data.lectures[lec_one_idx] %}
+        <a href="#lecture{{ lec_one_idx | plus:1 }}">{{ site.data.lectures[lec_one_idx].title }}</a>
+    {% endif %}
       </td>
-      <td>
-      {% if this_week_unix <= nowunix %}
-        <a href="questions/sheet{{ week.num }}.pdf" target="_blank">qns</a>
+      <td style="text-align:center">
+    {% if calendar_week == 1 %}n / a{% endif %}
+    {% capture qns_name %}/questions/sheet{{ logical_week | minus:1 }}.pdf{% endcapture %}
+    {% capture ans_name %}/answers/sheet{{ logical_week | minus:1 }}.pdf{% endcapture %}
+    {% for static_file in site.static_files %}
+      {% if static_file.path == qns_name %}
+        {% assign qns = true %}
       {% endif %}
-      {% if next_week_unix <= nowunix %}
-         / <a href="answers/sheet{{ week.num }}.pdf" target="_blank">ans</a>
+      {% if static_file.path == ans_name %}
+        {% assign ans = true %}
       {% endif %}
+    {% endfor %}
+    {% if qns %}
+        <a href="{{ qns_name }}" target="_blank">qns</a>  
+    {% endif  %}
+    {% if ans %}
+        / <a href="{{ ans_name }}" target="_blank">ans</a>  
+    {% endif %}
+      </td>
+      <td style="text-align:center">
+    {% assign lec_two_idx = logical_week | minus:1 | times:2 | plus:1 %}
+    {% if site.data.lectures[lec_two_idx] %}
+        <a href="#lecture{{ lec_two_idx }}">{{ site.data.lectures[lec_two_idx].title }}</a>
+    {% endif %}
       </td>
     </tr>
-    {% endif %}
-    {% endfor %}
+  {% endif %}
+{% endfor %}
   </tbody>
 </table>
 </div>
 
 <hr/>
 
-<img class="icon" src="assets/icons8-calendar-100.png"/>
+<!-- <img class="icon" src="assets/icons8-calendar-100.png"/>
 <h2>Day by day</h2>
 
 <div style="margin:0em 2em 0em 2em">
@@ -81,46 +103,53 @@ title: schedule
   </div>
 </div>
 
-<hr/>
+<hr/> -->
 
-<img class="icon" src="assets/icons8-timeline-week-100.png">
-<h2 id="wbyw">Week by week</h2>
+<img class="icon" src="assets/icons8-calendar-100.png">
+<h2 id="wbyw">Lecture List</h2>
+<p>Lecture synopses will appear here as the unit progresses.</p>
 
 <div style="margin-left: 2em">
 
-{% for week in site.data.weeks %}
-{% unless week.num == 6 or week.num == 12 %}
+{% assign lec_num = 1 %}
+{% for lec in site.data.lectures %}
 
-<h3 id="week{{ week.num }}">Week {{ week.num }}: {{ week.theme }}</h3>
-<p> - <i style="font-size:90%">Lectured by {{ week.lecturer | replace: "SR", "Steven Ramsay" | replace: "FD", "François Dupressoir" | replace: "AK", "Alex Kavvos" }}</i></p>
-{{ week.description | markdownify }}
-  {% capture this_week_unix %}{{ week.num | minus: 1 | times: weekunix | plus: startunix }}{% endcapture %}
-  {% capture next_week_unix %}{{ week.num | times: weekunix | plus: startunix }}{% endcapture %}
-  {% if this_week_unix <= nowunix %}
-  <p>Videos:
-      <ul>
-        {% for v in week.videos %}
-          <li>
-            <a href="{{ v.url }}" target="_blank">W{{ week.num }}V{{ v.num }}</a>: {{ v.dsc }} <i>({{ v.dur }} mins)</i><br/>
-            {% if v.ref %}
-              <ul>
-              {% for r in v.ref %}
-                <li><a href="{{ r }}" target="_blank">{{ r | split: '/' | last | split: '#' | last | replace: '-', ' ' }}</a></li>
-              {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-  </p>
-    {% if question_names contains week.num %}
-    <p>
-      Labs: <a href="questions/sheet{{ week.num }}.pdf" target="_blank">qns</a>{% if answer_names contains week.num %} / <a href="answers/sheet{{ week.num }}.pdf" target="_blank">ans</a>{% endif %}
-    </p>
-    {% endif %}
+<h3 id="lecture{{ lec_num }}">
+  {% if lec.replay %}[<a href="{{lec.replay}}" target="_blank">REPLAY</a>]{% endif %} 
+  {% assign week_posn = lec_num | modulo: 2 %}
+  {% if lec_num <= 10 %}
+    {% assign week = lec_num | plus: week_posn | divided_by: 2 %}
+  {% else %}
+    {% assign week = lec_num | plus: week_posn | divided_by: 2 | plus: 1 %}
   {% endif %}
-
-{% endunless %}
+ Week {{week}}, {% if week_posn == 1 %}Monday{% else %}Thursday{% endif %}: {{ lec.title }}
+</h3>
+<p>
+  {{ lec.description | markdownify }}
+</p>
+{% if lec.notes %}
+<p><i>Notes:</i> 
+  <ul>
+  {% for n in lec.notes %}
+    <li>
+      <a href="{{n}}" target="_blank">{{ n }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</p>
+{% endif %}
+{% if lec.links %}
+<p><i>References:</i>
+  <ul>
+  {% for r in lec.links %}
+    <li>
+      <a href="{{r}}" target="_blank">{{ r }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</p>
+{% endif %}
+{% assign lec_num = lec_num | plus:1 %}
 {% endfor %}
 </div>
 
