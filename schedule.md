@@ -59,6 +59,8 @@ title: schedule
     {% if calendar_week == 1 %}n / a{% endif %}
     {% capture qns_name %}/questions/sheet{{ logical_week | minus:1 }}.pdf{% endcapture %}
     {% capture ans_name %}/answers/sheet{{ logical_week | minus:1 }}.pdf{% endcapture %}
+    {% assign qns = false %}
+    {% assign ans = false %}
     {% for static_file in site.static_files %}
       {% if static_file.path == qns_name %}
         {% assign qns = true %}
@@ -68,10 +70,10 @@ title: schedule
       {% endif %}
     {% endfor %}
     {% if qns %}
-        <a href="{{ qns_name }}" target="_blank">qns</a>  
+        <a href="{{ qns_name | remove_first: "/" }}" target="_blank">qns</a>  
     {% endif  %}
     {% if ans %}
-        / <a href="{{ ans_name }}" target="_blank">ans</a>  
+        / <a href="{{ ans_name | remove_first: "/" }}" target="_blank">ans</a>  
     {% endif %}
       </td>
       <td style="text-align:center">
