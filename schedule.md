@@ -140,13 +140,11 @@ title: schedule
   </ul>
 </p>
 {% endif %}
-{% if lec.links %}
+{% if lec.refs %}
 <p><i>References:</i>
   <ul>
-  {% for r in lec.links %}
-    <li>
-      <a href="{{r}}" target="_blank">{{ r }}</a>
-    </li>
+  {% for r in lec.refs %}
+    <li>{{ r | markdownify }}</li>
   {% endfor %}
   </ul>
 </p>
