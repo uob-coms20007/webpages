@@ -124,7 +124,7 @@ title: schedule
   {% else %}
     {% assign week = lec_num | plus: week_posn | divided_by: 2 | plus: 1 %}
   {% endif %}
- Week {{week}}, {% if week_posn == 1 %}Monday{% else %}Thursday{% endif %}: {{ lec.title }}
+ Week {{week}}, {% if week_posn == 1 %}Monday{% else %}Friday{% endif %}: {{ lec.title }}
 </h3>
 <p>
   {{ lec.description | markdownify }}

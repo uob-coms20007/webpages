@@ -4,3 +4,12 @@
   notes:
   refs: 
     - "The weird C programs are past winners of the [The International Obfuscated C Code Contest](https://www.ioccc.org/): [burton](https://www.ioccc.org/2020/burton/prog.c), [kurdyukov3](https://www.ioccc.org/2020/kurdyukov3/prog.c) and [endoh3](https://www.ioccc.org/2020/endoh3/prog.c)."
+
+- title: Regex Syntax
+  description: Some notation and nomenclature to do with strings/words, and then we introduced the syntax of regular expressions.
+  replay:
+  notes: 
+    - https://uob-coms20007.github.io/reference/regular/strings.html
+    - https://uob-coms20007.github.io/reference/regular/syntax.html
+  refs:
+    - "Question: can you parse arbitrary (X)HTML with regular expressions? Answer: [stackoverflow](https://stackoverflow.com/a/1732454)."
