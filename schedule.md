@@ -57,8 +57,8 @@ title: schedule
       </td>
       <td style="text-align:center">
     {% if calendar_week == 1 %}n / a{% endif %}
-    {% capture qns_name %}/questions/sheet{{ logical_week | minus:1 }}.pdf{% endcapture %}
-    {% capture ans_name %}/answers/sheet{{ logical_week | minus:1 }}.pdf{% endcapture %}
+    {% capture qns_name %}/questions/sheet{{ calendar_week | minus:1 }}.pdf{% endcapture %}
+    {% capture ans_name %}/answers/sheet{{ calendar_week }}.pdf{% endcapture %}
     {% assign qns = false %}
     {% assign ans = false %}
     {% for static_file in site.static_files %}
