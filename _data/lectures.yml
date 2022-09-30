@@ -6,8 +6,8 @@
     - "The weird C programs are past winners of the [The International Obfuscated C Code Contest](https://www.ioccc.org/): [burton](https://www.ioccc.org/2020/burton/prog.c), [kurdyukov3](https://www.ioccc.org/2020/kurdyukov3/prog.c) and [endoh3](https://www.ioccc.org/2020/endoh3/prog.c)."
 
 - title: Regex Syntax
-  description: Some notation and nomenclature to do with strings/words, and then we introduced the syntax of regular expressions.
-  replay:
+  description: Some notation and nomenclature to do with strings/words, and then we introduced the syntax of regular expressions.  The replay recording only shows the projector screen, but I frequently write on the boards, so I suggest you use the notes to follow along. 
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/cbd3617e47b941db9ad4a9ee33e2a7461d
   notes: 
     - https://uob-coms20007.github.io/reference/regular/strings.html
     - https://uob-coms20007.github.io/reference/regular/syntax.html
