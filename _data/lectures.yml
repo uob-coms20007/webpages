@@ -13,3 +13,11 @@
     - https://uob-coms20007.github.io/reference/regular/syntax.html
   refs:
     - "Question: can you parse arbitrary (X)HTML with regular expressions? Answer: [stackoverflow](https://stackoverflow.com/a/1732454)."
+
+- title: Regex Semantics
+  description: Some syntactic sugar to making writing regex sweeter.  Operational semantics for regular expressions, configurations and transitions, traces.
+  replay:
+  notes:
+    - https://uob-coms20007.github.io/reference/regular/strings.html
+    - https://uob-coms20007.github.io/reference/regular/semantics.html
+  refs:
