@@ -18,6 +18,6 @@
   description: Some syntactic sugar to making writing regex sweeter.  Operational semantics for regular expressions, configurations and transitions, traces.
   replay:
   notes:
-    - https://uob-coms20007.github.io/reference/regular/strings.html
+    - https://uob-coms20007.github.io/reference/regular/syntax.html
     - https://uob-coms20007.github.io/reference/regular/semantics.html
   refs:
