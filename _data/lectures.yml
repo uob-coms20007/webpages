@@ -16,8 +16,16 @@
 
 - title: Regex Semantics
   description: Some syntactic sugar to making writing regex sweeter.  Operational semantics for regular expressions, configurations and transitions, traces.
-  replay:
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/690de03cf0f64cf584a7035b477119d11d
   notes:
     - https://uob-coms20007.github.io/reference/regular/syntax.html
     - https://uob-coms20007.github.io/reference/regular/semantics.html
   refs:
+
+- title: Finite Automata
+  description: "Introduction to finite automata. Four examples: odd/even automaton, aa-substring automaton, odd/even or aa automaton, odd/even and aa automaton."
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/05744757a4924052a2280ce959e860901d
+  notes:
+    - https://uob-coms20007.github.io/reference/regular/automata.html
+  refs:
+  
