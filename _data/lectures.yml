@@ -29,3 +29,9 @@
     - https://uob-coms20007.github.io/reference/regular/automata.html
   refs:
   
+- title: Kleene's Theorem
+  description: The statement of Kleene's Theorem and how to understand its meaning.  The formal construction of an automaton from a given regular expression and an illustration of the opposite direction.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/ce1e4dc75dd1417bb3cc0fcff98a66851d
+  notes: 
+    - https://uob-coms20007.github.io/reference/regular/Kleene.html
+  refs: 
