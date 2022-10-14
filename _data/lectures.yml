@@ -37,7 +37,7 @@
   refs: 
 
 - title: Inexpressibility
-  description: The inexpressibility of $$\{a^nb^n \mid n \in \mathbb{N}\}$$ done somewhat informally.  The observation that, if a finite automaton accepts a very long string, it must go through a loop.
+  description: The inexpressibility of a language of matched "parentheses" done somewhat informally.  The observation that, if a finite automaton accepts a very long string, it must go through a loop.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/6bafedb39b7f4d24a066306f7fc5c9781d
   notes: 
     - https://uob-coms20007.github.io/reference/regular/inexpressibility.html
