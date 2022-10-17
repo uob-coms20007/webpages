@@ -42,3 +42,10 @@
   notes: 
     - https://uob-coms20007.github.io/reference/regular/inexpressibility.html
   refs: 
+
+- title: Regularity
+  description: The languages expressible by regular expressions (= the language expressible by finite automata) are called regular.  We converted our informal observation about long strings accepted by short automata into a mathematical property of regular languages, called the pumping lemma.  
+  relay: https://mediasite.bris.ac.uk/Mediasite/Play/1257f4c7106140e8a36c4866596d60581d
+  notes: 
+   - https://uob-coms20007.github.io/reference/regular/regularity.html
+  refs:
