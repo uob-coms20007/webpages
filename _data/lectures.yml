@@ -45,7 +45,15 @@
 
 - title: Regularity
   description: The languages expressible by regular expressions (= the language expressible by finite automata) are called regular.  We converted our informal observation about long strings accepted by short automata into a mathematical property of regular languages, called the pumping lemma.  
-  relay: https://mediasite.bris.ac.uk/Mediasite/Play/1257f4c7106140e8a36c4866596d60581d
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/1257f4c7106140e8a36c4866596d60581d
   notes: 
    - https://uob-coms20007.github.io/reference/regular/regularity.html
   refs:
+
+- title: Determinisation
+  description: We look at a particular kind of finite automata, which are called deterministic, and observe they have several nice properties.  We observe that non-determinism is nevertheless useful as a programming/design abstraction and that non-determinism can be "compiled away" by exploring all non-deterministic choices in parallel.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/481ab961915c4e92951f3fcc21cd34f11d
+  notes: 
+    - https://uob-coms20007.github.io/reference/regular/determinism.html
+  refs:
+    - "Non-determinism can be expressed in Haskell using the List monad, see e.g. https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/13-the-list-monad"
