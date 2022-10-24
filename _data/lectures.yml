@@ -57,3 +57,10 @@
     - https://uob-coms20007.github.io/reference/regular/determinsim.html
   refs:
     - "Non-determinism can be expressed in Haskell using the List monad, see e.g. https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/13-the-list-monad"
+
+- title: The While Language and its Expressions
+  description: We graduate from regular expressions to a simple imperative language. We discuss arithmetic expressions and their semantics.
+  replay:
+  notes:
+    - https://uob-coms20007.github.io/reference/while/expressions.html
+  refs:
