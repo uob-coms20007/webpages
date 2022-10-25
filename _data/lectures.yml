@@ -60,7 +60,15 @@
 
 - title: The While Language and its Expressions
   description: We graduate from regular expressions to a simple imperative language. We discuss arithmetic expressions and their semantics.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/8f11dca1e84349e5b6b07e1ac9b917631d
+  notes:
+    - https://uob-coms20007.github.io/reference/while/expressions.html
+  refs:
+
+- title: The While Language and its Statements
+  description: We now define the syntax and operational semantics of the While language. We'll first step through semantics for boolean expressions before defining the semantics of programmes.
   replay:
   notes:
     - https://uob-coms20007.github.io/reference/while/expressions.html
+    - https://uob-coms20007.github.io/reference/while/statements.html
   refs:
