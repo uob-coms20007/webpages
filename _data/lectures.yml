@@ -67,7 +67,7 @@
 
 - title: The While Language and its Statements
   description: We now define the syntax and operational semantics of the While language. We'll first step through semantics for boolean expressions before defining the semantics of programmes.
-  replay:
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/25c5eebdc37f47cdaa8650d96441e64b1d
   notes:
     - https://uob-coms20007.github.io/reference/while/expressions.html
     - https://uob-coms20007.github.io/reference/while/statements.html
