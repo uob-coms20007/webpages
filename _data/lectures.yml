@@ -2,13 +2,13 @@
   description: Themes of the unit, how the unit runs.  We also talked about strings, but we will recap that in the next lecture.  Unfortunately, the *Replay* system did not work, so there is no recording of this lecture.
   replay:
   notes:
-  refs: 
+  refs:
     - "The weird C programs are past winners of the [The International Obfuscated C Code Contest](https://www.ioccc.org/): [burton](https://www.ioccc.org/2020/burton/prog.c), [kurdyukov3](https://www.ioccc.org/2020/kurdyukov3/prog.c) and [endoh3](https://www.ioccc.org/2020/endoh3/prog.c)."
 
 - title: Regex Syntax
   description: Some notation and nomenclature to do with strings/words, and then we introduced the syntax of regular expressions.  The replay recording only shows the projector screen, but I frequently write on the boards, so I suggest you use the notes to follow along. 
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/cbd3617e47b941db9ad4a9ee33e2a7461d
-  notes: 
+  notes:
     - https://uob-coms20007.github.io/reference/regular/strings.html
     - https://uob-coms20007.github.io/reference/regular/syntax.html
   refs:
@@ -28,32 +28,32 @@
   notes:
     - https://uob-coms20007.github.io/reference/regular/automata.html
   refs:
-  
+
 - title: Kleene's Theorem
   description: The statement of Kleene's Theorem and how to understand its meaning.  The formal construction of an automaton from a given regular expression and an illustration of the opposite direction.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/ce1e4dc75dd1417bb3cc0fcff98a66851d
-  notes: 
+  notes:
     - https://uob-coms20007.github.io/reference/regular/Kleene.html
-  refs: 
+  refs:
 
 - title: Inexpressibility
   description: The inexpressibility of a language of matched "parentheses" done somewhat informally.  The observation that, if a finite automaton accepts a very long string, it must go through a loop.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/6bafedb39b7f4d24a066306f7fc5c9781d
-  notes: 
+  notes:
     - https://uob-coms20007.github.io/reference/regular/inexpressibility.html
-  refs: 
+  refs:
 
 - title: Regularity
   description: The languages expressible by regular expressions (= the language expressible by finite automata) are called regular.  We converted our informal observation about long strings accepted by short automata into a mathematical property of regular languages, called the pumping lemma.  
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/1257f4c7106140e8a36c4866596d60581d
-  notes: 
+  notes:
    - https://uob-coms20007.github.io/reference/regular/regularity.html
   refs:
 
 - title: Determinisation
   description: We look at a particular kind of finite automata, which are called deterministic, and observe they have several nice properties.  We observe that non-determinism is nevertheless useful as a programming/design abstraction and that non-determinism can be "compiled away" by exploring all non-deterministic choices in parallel.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/481ab961915c4e92951f3fcc21cd34f11d
-  notes: 
+  notes:
     - https://uob-coms20007.github.io/reference/regular/determinsim.html
   refs:
     - "Non-determinism can be expressed in Haskell using the List monad, see e.g. https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/13-the-list-monad"
@@ -65,10 +65,9 @@
     - https://uob-coms20007.github.io/reference/while/expressions.html
   refs:
 
-- title: The While Language and its Statements
-  description: We now define the syntax and operational semantics of the While language. We'll first step through semantics for boolean expressions before defining the semantics of programmes.
+- title: The While Language and its Expressions (take 2)
+  description: We iterate on arithmetic expresions and their semantics, and discuss boolean expressions and some of the design choices we made along the way.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/25c5eebdc37f47cdaa8650d96441e64b1d
   notes:
     - https://uob-coms20007.github.io/reference/while/expressions.html
-    - https://uob-coms20007.github.io/reference/while/statements.html
   refs:
