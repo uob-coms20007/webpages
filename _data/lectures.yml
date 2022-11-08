@@ -76,4 +76,5 @@
   description: We graduate from expressions to the full imperative language, and discuss its small-step operational semantics.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/ba81fd86976d4347b32ce58dd6f3307d1d
   notes:
+    - https://uob-coms20007.github.io/reference/while/statements.html
   refs:
