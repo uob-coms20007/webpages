@@ -78,3 +78,11 @@
   notes:
     - https://uob-coms20007.github.io/reference/while/statements.html
   refs:
+
+- title: The While Language - Big Steps
+  description: We consider a new semantic relation for the While language, which ignores intermediate computation steps.
+  replay:
+  note:
+    - https://uob-coms20007.github.io/reference/while/statements.html
+    - https://uob-coms20007.github.io/reference/while/big-step.html
+  ref:
