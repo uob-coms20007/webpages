@@ -86,3 +86,11 @@
     - https://uob-coms20007.github.io/reference/while/statements.html
     - https://uob-coms20007.github.io/reference/while/big-step.html
   ref:
+
+- title: The Blocks Language: Syntax and Semantics
+  description: We add block structures to our language, which gives us ways of managing variable scope, and later enables us to deal with procedures.
+  replay: 
+  notes:
+    - https://uob-coms20007.github.io/reference/while/blocks.html
+  refs:
+
