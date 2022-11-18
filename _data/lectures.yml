@@ -94,3 +94,9 @@
     - https://uob-coms20007.github.io/reference/while/blocks.html
   refs:
 
+- title: The Procs Language - Syntax and Semantics
+  description: We add procedures and calls to our language, which gives us a lot more problems than it's worth, but makes for fun discussions.
+  replay:
+  notes:
+    - https://uob-coms20007.github.io/reference/while/procs.html
+  refs:
