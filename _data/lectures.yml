@@ -100,3 +100,16 @@
   notes:
     - https://uob-coms20007.github.io/reference/while/procs.html
   refs:
+    
+- title: Computable functions
+  description: We begin exploring the limits of computation.
+  replay:
+  notes:
+    - https://uob-coms20007.github.io/reference/prereqs/functions.html 
+    - https://uob-coms20007.github.io/reference/computability/functions.html
+
+- title: Decidable predicates
+  description:
+  notes:
+    - https://uob-coms20007.github.io/reference/prereqs/sets.html
+    - https://uob-coms20007.github.io/reference/computability/predicates.html
