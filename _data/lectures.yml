@@ -103,7 +103,7 @@
     
 - title: Computable functions
   description: We begin exploring the limits of computation.
-  replay:
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/3a14430ef2b04d8784324f264de8be821d
   notes:
     - https://uob-coms20007.github.io/reference/prereqs/functions.html 
     - https://uob-coms20007.github.io/reference/computability/functions.html
