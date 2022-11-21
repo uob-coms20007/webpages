@@ -96,7 +96,7 @@
 
 - title: The Procs Language - Syntax and Semantics
   description: We add procedures and calls to our language, which gives us a lot more problems than it's worth, but makes for fun discussions.
-  replay:
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/c5b083e21ddc43fe99b6d1f37c85b8b51d
   notes:
     - https://uob-coms20007.github.io/reference/while/procs.html
   refs:
