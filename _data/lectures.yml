@@ -109,18 +109,8 @@
     - https://uob-coms20007.github.io/reference/computability/functions.html
 
 - title: Decidable predicates
-<<<<<<< HEAD
   description:
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7c7dfb8def98418d8aa02815f2b8dd4a1d
-=======
-  description: We define the notion of decidable and semi-decidable predicates.
->>>>>>> 114a12f (update lectures)
   notes:
     - https://uob-coms20007.github.io/reference/prereqs/sets.html
     - https://uob-coms20007.github.io/reference/computability/predicates.html
-
-- title: Bijections etc.
-  description: We recap some material on injections, surjections and surjections. This will be required for encoding data as natural numbers.
-  notes:
-    - https://uob-coms20007.github.io/reference/computability/bijections.html
-    - https://uob-coms20007.github.io/reference/computability/reflection.html    
