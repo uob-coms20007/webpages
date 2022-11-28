@@ -120,4 +120,11 @@
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/4825ece46f144ed8a971d690f0ae59c11d
   notes:
     - https://uob-coms20007.github.io/reference/computability/bijections.html
+    - https://uob-coms20007.github.io/reference/computability/encodings_inf.html
+      
+- title: '"While" eats itself'
+  description: We make the While language eat itself.
+  notes:
+    - https://uob-coms20007.github.io/reference/computability/encodings_fin.html
     - https://uob-coms20007.github.io/reference/computability/reflection.html    
+    - https://uob-coms20007.github.io/reference/computability/goedel.html
