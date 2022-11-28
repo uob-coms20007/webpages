@@ -117,6 +117,7 @@
 
 - title: Bijections etc.
   description: We recap some material on injections, surjections and surjections. This will be required for encoding data as natural numbers.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/4825ece46f144ed8a971d690f0ae59c11d
   notes:
     - https://uob-coms20007.github.io/reference/computability/bijections.html
     - https://uob-coms20007.github.io/reference/computability/reflection.html    
