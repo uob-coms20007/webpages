@@ -114,3 +114,9 @@
   notes:
     - https://uob-coms20007.github.io/reference/prereqs/sets.html
     - https://uob-coms20007.github.io/reference/computability/predicates.html
+
+- title: Bijections etc.
+  description: We recap some material on injections, surjections and surjections. This will be required for encoding data as natural numbers.
+  notes:
+    - https://uob-coms20007.github.io/reference/computability/bijections.html
+    - https://uob-coms20007.github.io/reference/computability/reflection.html    
