@@ -124,6 +124,7 @@
       
 - title: '"While" eats itself'
   description: We make the While language eat itself.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/adf3ad49c23d44f39ecb980a19bd6f811d
   notes:
     - https://uob-coms20007.github.io/reference/computability/encodings_fin.html
     - https://uob-coms20007.github.io/reference/computability/reflection.html    
