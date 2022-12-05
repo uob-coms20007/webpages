@@ -132,6 +132,7 @@
       
 - title: The Halting Problem
   description: We show that an obvious program analysis is impossible.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/50ce37329ea341a99fa6c0f3d4a410c31d
   notes:
     - https://uob-coms20007.github.io/reference/computability/halting.html
 
