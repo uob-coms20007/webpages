@@ -10,5 +10,5 @@ You will probably find the practice problems difficult, because they come from p
   A practice exam: <a href="papers/exam.pdf" target="_blank">qns</a> / <a href="papers/exam-answers.pdf" target="_blank">ans</a>
 </p>
 <p>
-  Miscellaneous practice problems: <a href="questions/sheet12.pdf" target="_blank">qns</a> / <a href="answers/sheet12.pdf">ans</a>
+  Miscellaneous practice problems: <a href="questions/sheet12.pdf" target="_blank">qns</a> / <a href="answers/sheet12.pdf" target="_blank">ans</a>
 </p>
