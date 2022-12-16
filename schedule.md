@@ -89,7 +89,19 @@ title: schedule
 </table>
 </div>
 
+<div>
+<h3>Drop-in sessions:</h3>
+<p>Unfortunately, the recordings have various sound and video issues, but may still be useful to you.  I have not uploaded the very first two drop-ins because most of the blackboard work was unfortunately off-screen and so not captured by the recording.</p>
+<ul>
+  <li><a href="https://mediasite.bris.ac.uk/Mediasite/Play/e75efdb89aa3474db956fd000c02e71c1d" target="_blank">2/12</a> - Goedel numbering trees, induction, bijections and isomorphisms </li>
+  <li><a href="https://mediasite.bris.ac.uk/Mediasite/Play/e81047362dc241779c007876e60b6d8c1d" target="_blank">9/12</a> - deciding things, semi-deciding vs deciding</li>
+  <li><a href="https://mediasite.bris.ac.uk/Mediasite/Play/4b309d0640d0487ab0785f4c13c953391d" target="_blank">16/12 (1)</a> - semantics of procedures </li>
+  <li><a href="https://mediasite.bris.ac.uk/Mediasite/Play/4b309d0640d0487ab0785f4c13c953391d" target="_blank">16/12 (2)</a> reductions</li>
+</ul>
+<div>
+
 <hr/>
+
 
 <!-- <img class="icon" src="assets/icons8-calendar-100.png"/>
 <h2>Day by day</h2>
