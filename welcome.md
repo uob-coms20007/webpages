@@ -12,7 +12,7 @@ This 20cp unit introduces you to some of the fundamentals of programming languag
   * *Syntax and semantics:* how to describe the programming language mathematically.
   * *Expressive power:* how to understand the limitations of the programming language by proving theorems.
 
-This unit gives you a taster of several important topics in theoretical computer science: [Programming Language Theory](https://en.wikipedia.org/wiki/Programming_language_theory), [Automata Theory](https://en.wikipedia.org/wiki/Automata_theory) and [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory). It prepares you for courses in the programming languages theme in your third and fourth year, especially *COMS30040: Types and Lambda Calculus* and *COMSM0067: Advanced Topics in Programming Languages*, but it's primary purpose is to make you better at *thinking* about computer programs.
+This unit gives you a taster of several important topics in theoretical computer science: [Programming Language Theory](https://en.wikipedia.org/wiki/Programming_language_theory), [Theory of Formal Languages](https://en.wikipedia.org/wiki/Formal_language) and [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory). It prepares you for courses in the programming languages theme in your third and fourth year, especially *COMS30040: Types and Lambda Calculus* and *COMSM0067: Advanced Topics in Programming Languages*, but it's primary purpose is to make you better at *thinking* about computer programs.
 
 * * *
 
@@ -27,9 +27,9 @@ The unit is run by François Dupressoir, Alex Kavvos and Steven Ramsay.
 
 [1]: https://fdupress.net/
 [2]: https://www.lambdabetaeta.eu
-[3]: https://stersay.github.io
+[3]: https://sjrsay.github.io
 
-Outside of lectures and labs, please reach out to us via the unit [Team](https://teams.microsoft.com/l/team/19%3aOoahcryL7HkYKC1ssUFxEfR5ooUbe6agPkEf24cdca01%40thread.tacv2/conversations?groupId=db564e64-cca4-4ea6-bf9e-01c8f4aa3622&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b) rather than by email.  Feel free to ask questions about the unit material, how the units runs, or anything at all to do with programming language theory, automata theory or computability right in the [General](https://teams.microsoft.com/l/channel/19%3aOoahcryL7HkYKC1ssUFxEfR5ooUbe6agPkEf24cdca01%40thread.tacv2/General?groupId=db564e64-cca4-4ea6-bf9e-01c8f4aa3622&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b) channel.  We love to hear what you are thinking!
+Outside of lectures and labs, please reach out to us via the unit [Team](https://teams.microsoft.com/l/channel/19%3a2NEgj0jbvDp5YdVZoqdcuNkusuf8W4rNUDpeDcMclPE1%40thread.tacv2/General?groupId=c1248506-faa4-4027-8362-142951c82bcc&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b) rather than by email.  Feel free to ask questions about the unit material, how the units runs, or anything at all to do with programming language theory, formal language theory or computability right in the [General](https://teams.microsoft.com/l/channel/19%3a2NEgj0jbvDp5YdVZoqdcuNkusuf8W4rNUDpeDcMclPE1%40thread.tacv2/General?groupId=c1248506-faa4-4027-8362-142951c82bcc&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b) channel.  We love to hear what you are thinking!
 
 
 * * *
@@ -45,24 +45,26 @@ The unit is divided into three parts, each of which is run by one of the three l
 | Period | Lecturer | Topic |
 |:------:|:--------:|:------| 
 | Weeks 1-4    | Steven Ramsay | Regular Expressions |
-| Weeks 5,7,8  | François Dupressoir | While Language: Syntax and Semantics |
-| Weeks 9-11   | Alex Kavvos | While Language: Expressive Power  |
+| Weeks 5,7  | François Dupressoir | While Language: Operational Semantics |
+| Weeks 8-11   | Alex Kavvos | While Language: Expressive Power  |
 
 <br/>
 
 You should expect to spend around *12 hours per week* working on this unit.  There are 5 main activities (approximate time in parentheses, overall there is some slack):
 
-  * __Lectures (2 hr).__ There are two in-person lectures each week, *Mondays at 1pm in Queens 1.40* and *Fridays at 2pm in Chemistry LT1*.  
+  * __Lectures (2 hr).__ There are two lectures each week, *Thursdays at 3pm* and *Fridays at 2pm in Chemistry LT1*. 
 
-  * __Labs (2 hr).__  Except in Week 1, labs run in-person every Monday from 4pm-6pm in MVB 1.15 and MVB 2.11.  Most of the time, you will need pen and paper to work on the problems, occasionally you will want to do some (Haskell) programming.  We have an excellent selection of teaching assistants on this unit, and their sole responsibility in each lab is to *help you*.  Some of the problems are not designed to be solved by a single person in a short amount of time, so you will need the help of the TAs and/or the help of your peers in order to solve them. 
+  * __Q&A (1 hr).__ Except in Week 1, on Mondays at 10am, we have a lecture slot in the timetable, but we will use it as a Q&A session where you can ask about the problems from the previous week, or any of the material so far in the unit.  Like office hours, but on a larger scale.
 
-  * __Problem sheets (2-6 hr).__ You will only learn on this unit by completing the problem sheets.  There is one sheet released each week.  You will spend time working on the sheets in labs, but you will likely need much longer to complete them fully in your own time.
+  * __Labs (2 hr).__  Except in Week 1, labs run every Monday from 11am-1pm in MVB 2.11 and MVB 1.15.  Most of the time, you will need pen and paper to work on the problems, occasionally you will want to do some (Haskell) programming.  We have an excellent selection of teaching assistants on this unit, and their sole responsibility in each lab is to *help you*.  Some of the problems are not designed to be solved by a single person in a short amount of time, so you will need the help of the TAs and/or the help of your peers in order to solve them. 
 
-  * __Office hours (<1 hr).__ Each week there will be office hours with the lecturer, either online or in their office in MVB.  These will be irregular and advertised separately in each week.
+  * __Problem sheets (2-6 hr).__ You will only learn on this unit by completing the problem sheets.  There is one sheet released each week.  You will spend time working on the sheets in labs, but you will likely need longer to complete them fully in your own time.
+
+  <!-- * __Office hours (<1 hr).__ Each week there will be office hours with the lecturer, either online or in their office in MVB.  These will be irregular and advertised separately in each week. -->
 
   * __Reading (2 hr).__  You will often benefit from alternative explanations of the same concepts, which would not fit into the time available for lectures.  You will need to spend time revising and rethinking topics before you can solve the associated problems.
 
-*The most important activity is to give a serious attempt (at least 2 hours) to each problem sheet and get help when you are stuck. The easiest way to do this is to attend the weekly lab.  If you do not, you will likely fail this unit.*
+*The most important activity is to give a serious attempt (at least 3 hours) to each problem sheet and get help when you are stuck. The easiest way to do this is to attend the weekly lab.  If you do not, you will likely fail this unit.*
 
 * * *
 
@@ -82,7 +84,7 @@ The unit is distributed over four locations:
 [bb]: https://www.ole.bris.ac.uk/auth-saml/saml/login?apId=_183_1&redirectUrl=https%3A%2F%2Fwww.ole.bris.ac.uk%2Fwebapps%2Fblackboard%2Fexecute%2FcourseMain%3Fcourse_id%3D_247719_1
 [rf]: https://uob-coms20007.github.io/reference/
 [lc]: https://github.com/uob-coms20007/labcode
-[te]: https://teams.microsoft.com/l/team/19%3aOoahcryL7HkYKC1ssUFxEfR5ooUbe6agPkEf24cdca01%40thread.tacv2/conversations?groupId=db564e64-cca4-4ea6-bf9e-01c8f4aa3622&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b
+[te]: https://teams.microsoft.com/l/channel/19%3a2NEgj0jbvDp5YdVZoqdcuNkusuf8W4rNUDpeDcMclPE1%40thread.tacv2/General?groupId=c1248506-faa4-4027-8362-142951c82bcc&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b
 
 * * *
 
@@ -91,7 +93,7 @@ The unit is distributed over four locations:
 
 The unit is 100% assessed by a written exam in the January exam period.
 
-You will be allowed to take 1 page of A4 (= 1 side of a sheet of A4) of your own notes into the exam and consult them freely.  
+<!-- You will be allowed to take 1 page of A4 (= 1 side of a sheet of A4) of your own notes into the exam and consult them freely.   -->
 
 The exam is a series of problems to solve in the same style as the weekly problem sheets.  There will be questions covering material from all parts of the unit.  The questions are of varying difficulty but, unlike the problem sheets, the difficulty is *not* labelled on each question.  The difficulty of questions is related to your possible marks in the following way:
 

@@ -23,9 +23,9 @@ title: schedule
   <thead>
     <tr> 
       <th style="text-align:center">University<br>Week</th>
-      <th style="text-align:center">Monday 1pm Lecture<br><span style="font-weight:normal;font-style:italic">(Queens 1.40)</span></th>
-      <th style="text-align:center">Monday 4pm Lab<br><span style="font-weight:normal;font-style:italic">(MVB 1.15, 2.11)</span></th>
-      <th style="text-align:center">Friday 2pm Lecture<br><span style="font-weight:normal;font-style:italic">(Chemistry LT1)</span></th>
+      <th style="text-align:center">Monday 11am Lab<br><span style="font-weight:normal;font-style:italic">(MVB 2.11/1.15)</span></th>
+      <th style="text-align:center">Thursday 3pm Lecture<br><span style="font-weight:normal;font-style:italic">(PHYS G.42)</span></th>
+      <th style="text-align:center">Friday 3pm Lecture<br><span style="font-weight:normal;font-style:italic">(Queens 1.40)</span></th>
     </tr>
   </thead>
   <tbody>
@@ -50,11 +50,6 @@ title: schedule
     <tr> 
     {% assign lec_one_idx = logical_week | minus:1 | times:2 %}
       <td style="text-align:center"><a href="#lecture{{ lec_one_idx | plus: 1 }}">Week {{ calendar_week }}</a></td>  
-      <td style="text-align:center"> 
-    {% if site.data.lectures[lec_one_idx] %}
-        <a href="#lecture{{ lec_one_idx | plus:1 }}">{{ site.data.lectures[lec_one_idx].title }}</a>
-    {% endif %}
-      </td>
       <td style="text-align:center">
     {% if calendar_week == 1 %}n / a{% endif %}
     {% capture qns_name %}/questions/sheet{{ calendar_week }}.pdf{% endcapture %}
@@ -76,6 +71,11 @@ title: schedule
         / <a href="{{ ans_name | remove_first: "/" }}" target="_blank">ans</a>  
     {% endif %}
       </td>
+      <td style="text-align:center"> 
+    {% if site.data.lectures[lec_one_idx] %}
+        <a href="#lecture{{ lec_one_idx | plus:1 }}">{{ site.data.lectures[lec_one_idx].title }}</a>
+    {% endif %}
+      </td>
       <td style="text-align:center">
     {% assign lec_two_idx = logical_week | minus:1 | times:2 | plus:1 %}
     {% if site.data.lectures[lec_two_idx] %}
@@ -90,14 +90,14 @@ title: schedule
 </div>
 
 <div>
-<h3>Drop-in sessions:</h3>
+<!-- <h3>Drop-in sessions:</h3>
 <p>Unfortunately, the recordings have various sound and video issues, but may still be useful to you.  I have not uploaded the very first two drop-ins because most of the blackboard work was unfortunately off-screen and so not captured by the recording.</p>
 <ul>
   <li><a href="https://mediasite.bris.ac.uk/Mediasite/Play/e75efdb89aa3474db956fd000c02e71c1d" target="_blank">2/12</a> - Goedel numbering trees, induction, bijections and isomorphisms </li>
   <li><a href="https://mediasite.bris.ac.uk/Mediasite/Play/e81047362dc241779c007876e60b6d8c1d" target="_blank">9/12</a> - deciding things, semi-deciding vs deciding</li>
   <li><a href="https://mediasite.bris.ac.uk/Mediasite/Play/4b309d0640d0487ab0785f4c13c953391d" target="_blank">16/12 (1)</a> - semantics of procedures </li>
   <li><a href="https://mediasite.bris.ac.uk/Mediasite/Play/4b309d0640d0487ab0785f4c13c953391d" target="_blank">16/12 (2)</a> - reductions</li>
-</ul>
+</ul> -->
 <div>
 
 <hr/>

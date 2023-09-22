@@ -2,14 +2,14 @@ name: Deploy Blackboard Webpages
 on: [push, workflow_dispatch]
 jobs:
   buildAndDeploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
 
       - uses: actions/checkout@v2
 
       - uses: ruby/setup-ruby@v1
         with: 
-          ruby-version: 2.6
+          ruby-version: 3.2.2
 
       - uses: limjh16/jekyll-action-ts@v2
         with:
@@ -27,5 +27,5 @@ jobs:
 
       - name: Deploy pages
         working-directory: _site
-        run: find . -type f -exec curl -n -T {} 'https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20007_2022_TB-1/site/{}' \;
+        run: find . -type f -exec curl -n -T {} 'https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20007_2023_TB-1/site/{}' \;
 
