@@ -9,3 +9,9 @@
   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
   refs:
+
+- title: String Grammars
+  description: Context-free grammars as a device for representing a language.  Motivation for abstract syntax trees.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/fd334b02b8ed4f93aea1c9d1816352b41d
+  refs:
+
