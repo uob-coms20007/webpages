@@ -1,7 +1,11 @@
 - old_title: Introduction
   old_description: Themes of the unit, how the unit runs.  We also talked about strings, but we will recap that in the next lecture.  Unfortunately, the *Replay* system did not work, so there is no recording of this lecture.
   old_replay:
-  old_notes:
   old_refs:
     - "The weird C programs are past winners of the [The International Obfuscated C Code Contest](https://www.ioccc.org/): [burton](https://www.ioccc.org/2020/burton/prog.c), [kurdyukov3](https://www.ioccc.org/2020/kurdyukov3/prog.c) and [endoh3](https://www.ioccc.org/2020/endoh3/prog.c)."
 
+
+- title: Introduction
+  description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
+  refs:
