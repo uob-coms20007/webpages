@@ -23,7 +23,7 @@ title: schedule
   <thead>
     <tr> 
       <th style="text-align:center">University<br>Week</th>
-      <th style="text-align:center">Monday 10am Q&A<br><span style="font-weight:normal;font-style:italic">(MVB 2.11/1.15)</span></th>
+      <th style="text-align:center">Monday 10am Q&A<br><span style="font-weight:normal;font-style:italic">(Queens 1.40)</span></th>
       <th style="text-align:center">Monday 11am Lab<br><span style="font-weight:normal;font-style:italic">(MVB 2.11/1.15)</span></th>
       <th style="text-align:center">Thursday 3pm Lecture<br><span style="font-weight:normal;font-style:italic">(PHYS G.42)</span></th>
       <th style="text-align:center">Friday 3pm Lecture<br><span style="font-weight:normal;font-style:italic">(Queens 1.40)</span></th>
