@@ -23,6 +23,7 @@ title: schedule
   <thead>
     <tr> 
       <th style="text-align:center">University<br>Week</th>
+      <th style="text-align:center">Monday 10am Q&A<br><span style="font-weight:normal;font-style:italic">(MVB 2.11/1.15)</span></th>
       <th style="text-align:center">Monday 11am Lab<br><span style="font-weight:normal;font-style:italic">(MVB 2.11/1.15)</span></th>
       <th style="text-align:center">Thursday 3pm Lecture<br><span style="font-weight:normal;font-style:italic">(PHYS G.42)</span></th>
       <th style="text-align:center">Friday 3pm Lecture<br><span style="font-weight:normal;font-style:italic">(Queens 1.40)</span></th>
@@ -30,7 +31,7 @@ title: schedule
   </thead>
   <tbody>
     <tr>
-      <td colspan="4" style="text-align:center">Welcome Week</td>
+      <td colspan="5" style="text-align:center">Welcome Week</td>
     </tr>
 {% for calendar_week in (1..12) %}
   {% if calendar_week <= 6 %}
@@ -40,16 +41,22 @@ title: schedule
   {% endif %}
   {% if calendar_week == 6 %}
     <tr>
-      <td colspan="4" style="text-align:center">Reading Week</td>
+      <td colspan="5" style="text-align:center">Reading Week</td>
     </tr>
   {% elsif calendar_week == 12 %}
     <tr>
-      <td colspan="4" style="text-align:center">Revision Week</td>
+      <td colspan="5" style="text-align:center">Revision Week</td>
     </tr>
   {% else %}
     <tr> 
-    {% assign lec_one_idx = logical_week | minus:1 | times:2 %}
-      <td style="text-align:center"><a href="#lecture{{ lec_one_idx | plus: 1 }}">Week {{ calendar_week }}</a></td>  
+    {% assign lec_one_idx = logical_week | minus:1 | times:3 | minus:1 %}
+      <td style="text-align:center"><a href="#lecture{{ lec_one_idx | plus: 1 }}">Week {{ calendar_week }}</a></td>
+      <td style="text-align:center"> 
+    {% if calendar_week == 1 %}n / a
+    {% elsif site.data.lectures[lec_one_idx] %}
+        <a href="#lecture{{ lec_one_idx | plus:1 }}">{{ site.data.lectures[lec_one_idx].title }}</a>
+    {% endif %}
+      </td>  
       <td style="text-align:center">
     {% if calendar_week == 1 %}n / a{% endif %}
     {% capture qns_name %}/questions/sheet{{ calendar_week }}.pdf{% endcapture %}
@@ -71,15 +78,16 @@ title: schedule
         / <a href="{{ ans_name | remove_first: "/" }}" target="_blank">ans</a>  
     {% endif %}
       </td>
-      <td style="text-align:center"> 
-    {% if site.data.lectures[lec_one_idx] %}
-        <a href="#lecture{{ lec_one_idx | plus:1 }}">{{ site.data.lectures[lec_one_idx].title }}</a>
+      <td style="text-align:center">
+    {% assign lec_two_idx = logical_week | minus:1 | times:3 %}
+    {% if site.data.lectures[lec_two_idx] %}
+        <a href="#lecture{{ lec_two_idx | plus:1 }}">{{ site.data.lectures[lec_two_idx].title }}</a>
     {% endif %}
       </td>
-      <td style="text-align:center">
-    {% assign lec_two_idx = logical_week | minus:1 | times:2 | plus:1 %}
-    {% if site.data.lectures[lec_two_idx] %}
-        <a href="#lecture{{ lec_two_idx }}">{{ site.data.lectures[lec_two_idx].title }}</a>
+      <td style="text-align:center"> 
+    {% assign lec_three_idx = logical_week | minus:1 | times:3 | plus:1 %}
+    {% if site.data.lectures[lec_three_idx] %}
+        <a href="#lecture{{ lec_three_idx | plus:1 }}">{{ site.data.lectures[lec_three_idx].title }}</a>
     {% endif %}
       </td>
     </tr>
@@ -130,13 +138,13 @@ title: schedule
 
 <h3 id="lecture{{ lec_num }}">
   {% if lec.replay %}[<a href="{{lec.replay}}" target="_blank">REPLAY</a>]{% endif %} 
-  {% assign week_posn = lec_num | modulo: 2 %}
-  {% if lec_num <= 10 %}
-    {% assign week = lec_num | plus: week_posn | divided_by: 2 %}
+  {% assign week_posn = lec_num | modulo: 3 %}
+  {% if lec_num <= 14 %}
+    {% assign week = lec_num | divided_by: 3 | plus: 1 %}
   {% else %}
-    {% assign week = lec_num | plus: week_posn | divided_by: 2 | plus: 1 %}
+    {% assign week = lec_num | divided_by: 3 | plus: 2 %}
   {% endif %}
- Week {{week}}, {% if week_posn == 1 %}Thursday{% else %}Friday{% endif %}: {{ lec.title }}
+ Week {{week}}, {% if week_posn == 1 %}Thursday{% elsif week_posn == 2 %}Friday{% else %}Monday{% endif %}: {{ lec.title }}
 </h3>
 <p>
   {{ lec.description | markdownify }}
