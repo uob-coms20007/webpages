@@ -15,3 +15,7 @@
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/fd334b02b8ed4f93aea1c9d1816352b41d
   refs:
 
+- title: Abstract Syntax
+  description: In this first Monday Q&A, rather than take questions, we continued covering material needed for the labs.  Abstract syntax trees, tree grammars and how to write trees as inline expressions - precedence and association as conventions for omitting parens. 
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/b300b11c138d4faca0a0d686963fb49f1d
+  refs:
