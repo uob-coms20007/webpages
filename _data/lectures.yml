@@ -19,3 +19,10 @@
   description: In this first Monday Q&A, rather than take questions, we continued covering material needed for the labs.  Abstract syntax trees, tree grammars and how to write trees as inline expressions - precedence and association as conventions for omitting parens. 
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/b300b11c138d4faca0a0d686963fb49f1d
   refs:
+
+- title: Regex Syntax
+  description: We defined the abstract syntax of regular expressions and discussed the meaning informally.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/69453f57ea2a4d218b24596119d920ea1d
+  refs: 
+    - https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
+    - https://www.computerhistory.org/brochures/doc-43729570aadb0/
