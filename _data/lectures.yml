@@ -26,3 +26,8 @@
   refs: 
     - https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
     - https://www.computerhistory.org/brochures/doc-43729570aadb0/
+
+- title: Regex Semantics
+  description: The big step operational semantics of regular expressions, i.e. the relation "matches".  Rules, instantiation of rules and glueing instances of rules together to make a proof tree or derivation.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/013f845f4f984eeca5c6f02ed7fbe8b21d
+  refs:
