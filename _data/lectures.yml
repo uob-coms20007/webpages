@@ -41,3 +41,8 @@
   description: Examples of finite automata, runs and accepting, the formal definition and tips on how to construct them.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/9115168e0240486fa7cbbd22da55c7441d
   refs:
+
+- title: Kleene's Theorem
+  description: We looked at an example of an automaton for computing the addition of two numbers (really for recognising the graph of the addition function).  We considered Kleene's Theorem, and I sketched the algorithms that compute a regex from a DFA and vice versa.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/374f56975801409883e5a9a05cc9d4591d
+  refs:
