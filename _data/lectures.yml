@@ -36,3 +36,8 @@
   description: We talked about how you should think about matching regular expressions and strings, we went through some of the examples from the lectures again in more detail and we discussed what you should do when your proof trees get too large.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/2f4eccbc628849fb980955746570c54e1d
   refs:
+
+- title: Finite Automata
+  description: Examples of finite automata, runs and accepting, the formal definition and tips on how to construct them.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/9115168e0240486fa7cbbd22da55c7441d
+  refs:
