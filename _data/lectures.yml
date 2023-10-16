@@ -46,3 +46,9 @@
   description: We looked at an example of an automaton for computing the addition of two numbers (really for recognising the graph of the addition function).  We considered Kleene's Theorem, and I sketched the algorithms that compute a regex from a DFA and vice versa.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/374f56975801409883e5a9a05cc9d4591d
   refs:
+
+- title: Q&A 2
+  description: We talked about how to go about answering tricky regex construction questions, including if there is a mechanical process that one can follow.  We also looked in more detail at an example automaton construction problem that I started in the lectures.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/a58d160d793d4a14a72145615d818dfc1d
+  refs:
+  
