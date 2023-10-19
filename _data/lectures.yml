@@ -52,3 +52,7 @@
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/a58d160d793d4a14a72145615d818dfc1d
   refs:
   
+- title: Matched Parentheses not Regular
+  description: We gave a name to the class of languages that one can express using regex (which is the same as the class that one can express using DFA), called Regular.  We proved that the language of matched parentheses is not regular.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/c42d14daff7f42c18c0f6b1f18a6e4f51d
+  refs:
