@@ -56,3 +56,8 @@
   description: We gave a name to the class of languages that one can express using regex (which is the same as the class that one can express using DFA), called Regular.  We proved that the language of matched parentheses is not regular.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/c42d14daff7f42c18c0f6b1f18a6e4f51d
   refs:
+
+- title: Pumping Lemma
+  description: The pumping lemma was introduced, I argued why it is true and then gave an example of how to use it.  Unfortunately, despite by best efforts at the start of the lecture, I was not able to coax the Replay system into filming both boards.  So the left board is not visible, but all it contained was a statement of the pumping lemma, and that is available in the reference material.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/9cbeeb63b519406f8f59eb92f1f44fd01d
+  refs:
