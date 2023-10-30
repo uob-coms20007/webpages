@@ -23,7 +23,7 @@
 - title: Regex Syntax
   description: We defined the abstract syntax of regular expressions and discussed the meaning informally.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/69453f57ea2a4d218b24596119d920ea1d
-  refs: 
+  refs:
     - https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
     - https://www.computerhistory.org/brochures/doc-43729570aadb0/
 
@@ -51,7 +51,7 @@
   description: We talked about how to go about answering tricky regex construction questions, including if there is a mechanical process that one can follow.  We also looked in more detail at an example automaton construction problem that I started in the lectures.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/a58d160d793d4a14a72145615d818dfc1d
   refs:
-  
+
 - title: Matched Parens not Regular
   description: We gave a name to the class of languages that one can express using regex (which is the same as the class that one can express using DFA), called Regular.  We proved that the language of matched parentheses is not regular.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/c42d14daff7f42c18c0f6b1f18a6e4f51d
@@ -66,3 +66,14 @@
   description: There were no questions today.
   replay:
   refs:
+
+- title: Syntax and Semantics of Expressions
+  description: We discussed a new language, and briefly justified the study of its syntax and semantics. We then started defining those, bottom-up, relying on the concepts of abstract syntax trees, tree grammars and derivations introduced much earlier by Steven.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/24e1abc694af4d5ca1d9e4a4fc05a0231d
+  refs:
+
+- title: Syntax and Semantics of While Statements
+  description: We carried on developing the syntax and semantics of the While language, making a stopover to discuss a neat way of defining inductive relations when they are in fact functional.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/f4ec087d31e6449d8ec78ecde62430ad1d
+  refs:
+
