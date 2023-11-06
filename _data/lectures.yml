@@ -77,3 +77,7 @@
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/f4ec087d31e6449d8ec78ecde62430ad1d
   refs:
 
+- title: Q&A 4 — Structural Induction
+  description: We introduce the concept of structural induction as a generalisation of mathematical induction, and apply it to prove that the semantics of expressions is functional.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/098b560b3df94e55a1e7716b20d48c2c1d
+  refs:
