@@ -81,3 +81,8 @@
   description: We introduce the concept of structural induction as a generalisation of mathematical induction, and apply it to prove that the semantics of expressions is functional.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/098b560b3df94e55a1e7716b20d48c2c1d
   refs:
+
+- title: Breaking Bad
+  description: We introduced and discussed the notion of safety of a programme, and started exploring what we can say about executions on abstract states (on which we know only some information). We focused on proving non-termination of Euclidean division.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/3dbcf498704e46319bafe1a48d3024e71d
+  refs:
