@@ -86,3 +86,9 @@
   description: We introduced and discussed the notion of safety of a programme, and started exploring what we can say about executions on abstract states (on which we know only some information). We focused on proving non-termination of Euclidean division.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/3dbcf498704e46319bafe1a48d3024e71d
   refs:
+
+- title: Correctness
+  description: We conclude our discussion of liveness and move onto discussions of correctness, where loop invariants once again take centre-stage.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/a78646253cf14c8e9afba2d55db553c61d
+  refs:
+
