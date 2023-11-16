@@ -91,4 +91,8 @@
   description: We conclude our discussion of liveness and move onto discussions of correctness, where loop invariants once again take centre-stage.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/a78646253cf14c8e9afba2d55db553c61d
   refs:
-
+    
+- title: Computability
+  description: We introduce the notion of a computable function.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/b05968ff58114d259b2cf1192822c8361d
+  refs:
