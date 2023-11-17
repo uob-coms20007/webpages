@@ -91,8 +91,12 @@
   description: We conclude our discussion of liveness and move onto discussions of correctness, where loop invariants once again take centre-stage.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/a78646253cf14c8e9afba2d55db553c61d
   refs:
-    
+
+- title: Q&A 5
+  description: We mainly discussed why loop variants imply termination (soundness), and briefly why they are not implied by termination (incompleteness).
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/df2b177400314beb8023c0d7b32d87031d
+  refs:
+
 - title: Computability
   description: We introduce the notion of a computable function.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/b05968ff58114d259b2cf1192822c8361d
-  refs:
