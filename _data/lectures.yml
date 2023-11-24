@@ -104,3 +104,15 @@
 - title: Decidable and Semi-decidable Predicates
   description: Suppose we decide that we like a set of numbers. We define what it means for a computer to be able to recognise it.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7bf400e5642a45f499c234e5d23baa671d
+    
+- title: Q&A 6
+  description: After various minutiae, we did a proof that the semantics of arithmetic expressions do not depend on variables that do not occur in them.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e001a6a97f574dcf91b53290880f031e1d
+    
+- title: Bijections etc.
+  description: We discuss how to reduce all sorts of data to natural numbers.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/4533c561c1cc4a859c2a27e4a5c235181d
+    
+- title: While eats itself
+  description: Arriving at an encoding of all kinds of first-order data as natural numbers, we argue that it is possible to encode While programs themselves as numbers.
+  replay: about:blank
