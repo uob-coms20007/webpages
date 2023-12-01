@@ -116,3 +116,12 @@
 - title: Encoding first-order data
   description: Arriving at an encoding of all kinds of first-order data as natural numbers, we argue that it is possible to encode While programs themselves as numbers.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/1175d20d41b740f6b8796c714482f28c1d
+
+- title: Q&A 7
+  description: A couple of questions answered.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/0c7f79153d9f47bc84052a98bc97efd41d
+    
+- title: While eats itself
+  description: We introduce the idea that an interpreter for While can be written in itself, and then state the Church-Turing thesis.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/cb6edf668a1c49b1900638851b41785b1d
+
