@@ -125,3 +125,6 @@
   description: We introduce the idea that an interpreter for While can be written in itself, and then state the Church-Turing thesis.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/cb6edf668a1c49b1900638851b41785b1d
 
+- title: The Halting Problem
+  description: Alan Turing's theorem
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e44a071bc2a2420b90c7909ffdda57ef1d
