@@ -23,7 +23,7 @@
 - title: Regex Syntax
   description: We defined the abstract syntax of regular expressions and discussed the meaning informally.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/69453f57ea2a4d218b24596119d920ea1d
-  refs: 
+  refs:
     - https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
     - https://www.computerhistory.org/brochures/doc-43729570aadb0/
 
@@ -51,7 +51,7 @@
   description: We talked about how to go about answering tricky regex construction questions, including if there is a mechanical process that one can follow.  We also looked in more detail at an example automaton construction problem that I started in the lectures.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/a58d160d793d4a14a72145615d818dfc1d
   refs:
-  
+
 - title: Matched Parens not Regular
   description: We gave a name to the class of languages that one can express using regex (which is the same as the class that one can express using DFA), called Regular.  We proved that the language of matched parentheses is not regular.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/c42d14daff7f42c18c0f6b1f18a6e4f51d
@@ -66,3 +66,65 @@
   description: There were no questions today.
   replay:
   refs:
+
+- title: Syntax and Semantics of Expressions
+  description: We discussed a new language, and briefly justified the study of its syntax and semantics. We then started defining those, bottom-up, relying on the concepts of abstract syntax trees, tree grammars and derivations introduced much earlier by Steven.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/24e1abc694af4d5ca1d9e4a4fc05a0231d
+  refs:
+
+- title: Syntax and Semantics of While Statements
+  description: We carried on developing the syntax and semantics of the While language, making a stopover to discuss a neat way of defining inductive relations when they are in fact functional.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/f4ec087d31e6449d8ec78ecde62430ad1d
+  refs:
+
+- title: Q&A 4 — Structural Induction
+  description: We introduce the concept of structural induction as a generalisation of mathematical induction, and apply it to prove that the semantics of expressions is functional.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/098b560b3df94e55a1e7716b20d48c2c1d
+  refs:
+
+- title: Breaking Bad
+  description: We introduced and discussed the notion of safety of a programme, and started exploring what we can say about executions on abstract states (on which we know only some information). We focused on proving non-termination of Euclidean division.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/3dbcf498704e46319bafe1a48d3024e71d
+  refs:
+
+- title: Correctness
+  description: We conclude our discussion of liveness and move onto discussions of correctness, where loop invariants once again take centre-stage.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/a78646253cf14c8e9afba2d55db553c61d
+  refs:
+
+- title: Q&A 5
+  description: We mainly discussed why loop variants imply termination (soundness), and briefly why they are not implied by termination (incompleteness).
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/df2b177400314beb8023c0d7b32d87031d
+  refs:
+
+- title: Computability
+  description: We introduce the notion of a computable function.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/b05968ff58114d259b2cf1192822c8361d
+    
+- title: Decidable and Semi-decidable Predicates
+  description: Suppose we decide that we like a set of numbers. We define what it means for a computer to be able to recognise it.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/7bf400e5642a45f499c234e5d23baa671d
+    
+- title: Q&A 6
+  description: After various minutiae, we did a proof that the semantics of arithmetic expressions do not depend on variables that do not occur in them.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e001a6a97f574dcf91b53290880f031e1d
+    
+- title: Bijections etc.
+  description: We discuss how to reduce all sorts of data to natural numbers.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/4533c561c1cc4a859c2a27e4a5c235181d
+    
+- title: Encoding first-order data
+  description: Arriving at an encoding of all kinds of first-order data as natural numbers, we argue that it is possible to encode While programs themselves as numbers.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/1175d20d41b740f6b8796c714482f28c1d
+
+- title: Q&A 7
+  description: A couple of questions answered.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/0c7f79153d9f47bc84052a98bc97efd41d
+    
+- title: While eats itself
+  description: We introduce the idea that an interpreter for While can be written in itself, and then state the Church-Turing thesis.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/cb6edf668a1c49b1900638851b41785b1d
+
+- title: The Halting Problem
+  description: Alan Turing's theorem
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e44a071bc2a2420b90c7909ffdda57ef1d
