@@ -93,23 +93,27 @@ The unit is distributed over four locations:
 
 The unit is 100% assessed by a written exam in the January exam period.
 
-<!-- You will be allowed to take 1 page of A4 (= 1 side of a sheet of A4) of your own notes into the exam and consult them freely.   -->
+This exam is considered open book in the following sense:
+*Candidates may bring to the exam room 1 double-sided A4 page of notes in any format.*
 
-The exam is a series of problems to solve in the same style as the weekly problem sheets.  There will be questions covering material from all parts of the unit.  The questions are of varying difficulty but, unlike the problem sheets, the difficulty is *not* labelled on each question.  The difficulty of questions is related to your possible marks in the following way:
+In addition, almost all of the important definitions from the unit are available for your reference at the back of the exam paper.  A practice paper is available [here](papers.html) so that you can familiarise yourself with the format.
+
+The exam is a series of problems to solve in the same style as the weekly problem sheets.  There will be questions covering material from all parts of the unit.  The difficulty of questions is related to your possible marks in the following way:
 
 * 1* questions only account for approximately 40% of available marks.
 * 1* and 2* questions account for approximately 70% of available marks.
-* 1*, 2* and 3* questions account for approximately 90% of available marks.
-* The remaining approximately 10% are available for answering 4* questions.
+* 1\*, 2\* and 3* questions account for approximately 100% of available marks.
 
-Partial marks are given for partially correct answers.  This is important, because you are unlikely to answer the 4* question(s) completely correctly in the given time, but it is possible to obtain some marks for an attempt.
+Unfortunately, this is not quite true for the practice paper linked above, because we had to assemble it from a number of sources due to changes in the material taught this year.  Partial marks are given for partially correct answers.  This is important, because you are unlikely to answer all the 3* question(s) completely correctly in the given time, but it is possible to obtain some marks for an attempt.
 
 The distribution of marks by topic is as follows:
-* 45 marks are available for questions on regular expressions, automata and regular languages.
-* 35 marks are available for questions on the syntax and semantics of the While language.
-* 20 marks are available for questions on computability.
+* 40 marks are available for questions on regular expressions, automata and regular languages.
+* 30 marks are available for questions on the syntax and semantics of the While language.
+* 30 marks are available for questions on computability.
 
 However, *you should make sure you are confident on all topics* because the exam will contain 1*, 2* and 3* questions within each of these topics.
+
+General feedback sent to students on the overall performance in last years exam can be viewed [here](feedback.txt).  Note, the question numbers do not correspond directly to those in the practice paper (linked above) because the practice paper is not exactly the same as last year's exam, due to changes in the material taught for this year.
 
 * * *
 
