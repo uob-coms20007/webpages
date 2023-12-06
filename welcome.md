@@ -113,6 +113,29 @@ The distribution of marks by topic is as follows:
 
 However, *you should make sure you are confident on all topics* because the exam will contain 1*, 2* and 3* questions within each of these topics.
 
+Typical examples of the shape of 1* questions (mostly mechanical tasks that require careful use of definitions but very little insight):
+* Recall some simple facts about the definitions we have studied, such as the meaning of accepting state, decidable, abstract syntax tree, and so on.
+* Carry out some (mostly) mechanical procedure, e.g. drawing an abstract syntax tree, checking if some given syntax is valid, giving examples of strings matched by a regex, giving a derivation for a regex matching a string.
+* Writing a While program to achieve some simple specification.
+* Describing what a While program computes/what language a regex recognises.
+* Deducing the final state after executing a While program from a given starting configuration.
+
+Typical examples of the shape of 2* questions (mostly constructing simple objects -- programs, equational proofs, derivations, automata etc -- to meet given requirements):
+* Construct a regex/automaton to recognise a given language/show that a language is regular.
+* Writing a While program to achieve some more complex specification.
+* Use the pumping lemma to show that a language is not regular.
+* Construct a derivation for a given program in the While semantics.
+* Prove simple properties of functions/combinations of functions (injectivity, surjectivity etc).
+* Show that a predicate is decidable/semi-decidable.
+
+Some typical examples of the shape of 3* questions, but 3* questions are often atypical and of a shape that you may have never encountered before during the unit.
+* Show that a predicate is undecidable.
+* Show that regular languages are closed under a given operation.
+* Show that a language is regular, where there is some insight needed to first simplify the description of the language.
+* Prove, using an invariant/variant that a While program satisfies a given property.
+
+*Before the day of the exam, you should be confident in your ability to answer typical 1\* and 2\* questions.*
+
 General feedback sent to students on the overall performance in last years exam can be viewed [here](feedback.txt).  Note, the question numbers do not correspond directly to those in the practice paper (linked above) because the practice paper is not exactly the same as last year's exam, due to changes in the material taught for this year.
 
 * * *
