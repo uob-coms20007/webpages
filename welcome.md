@@ -88,30 +88,7 @@ The unit is distributed over four locations:
 
 * * *
 
-![report card](assets/icons8-report-card-100.png){: .icon } 
-## Assessment
 
-The unit is 100% assessed by a written exam in the January exam period.
-
-<!-- You will be allowed to take 1 page of A4 (= 1 side of a sheet of A4) of your own notes into the exam and consult them freely.   -->
-
-The exam is a series of problems to solve in the same style as the weekly problem sheets.  There will be questions covering material from all parts of the unit.  The questions are of varying difficulty but, unlike the problem sheets, the difficulty is *not* labelled on each question.  The difficulty of questions is related to your possible marks in the following way:
-
-* 1* questions only account for approximately 40% of available marks.
-* 1* and 2* questions account for approximately 70% of available marks.
-* 1*, 2* and 3* questions account for approximately 90% of available marks.
-* The remaining approximately 10% are available for answering 4* questions.
-
-Partial marks are given for partially correct answers.  This is important, because you are unlikely to answer the 4* question(s) completely correctly in the given time, but it is possible to obtain some marks for an attempt.
-
-The distribution of marks by topic is as follows:
-* 45 marks are available for questions on regular expressions, automata and regular languages.
-* 35 marks are available for questions on the syntax and semantics of the While language.
-* 20 marks are available for questions on computability.
-
-However, *you should make sure you are confident on all topics* because the exam will contain 1*, 2* and 3* questions within each of these topics.
-
-* * *
 
 {: style="text-align:center"}
 Icons in this course are from the '[Hand Drawn](https://icons8.com/icons/carbon-copy)' icon collection by [Icons8](https://icons8.com/).
