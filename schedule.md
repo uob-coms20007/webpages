@@ -43,10 +43,6 @@ title: schedule
     <tr>
       <td colspan="5" style="text-align:center">Reading Week</td>
     </tr>
-  {% elsif calendar_week == 12 %}
-    <tr>
-      <td colspan="5" style="text-align:center">Revision Week</td>
-    </tr>
   {% else %}
     <tr> 
     {% assign lec_one_idx = logical_week | minus:1 | times:3 | minus:1 %}
