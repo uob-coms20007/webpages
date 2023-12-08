@@ -129,6 +129,9 @@
   description: Alan Turing's theorem shows that a certain set is undecidable.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/e44a071bc2a2420b90c7909ffdda57ef1d
 
+- title: No Q&A
+  description:
+
 - title: Reductions
   description: We show how to reduce the Halting Problem to more complicated ones, therefore proving they are undecidable as well.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/a4c26a7387b442ea9396ab805211ba751d
