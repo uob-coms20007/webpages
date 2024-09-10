@@ -8,28 +8,29 @@ title: welcome
 
 Welcome to the home of COMS20007: Programming Languages and Computation.  
 
-This 20cp unit introduces you to some of the fundamentals of programming languages.  We will look at two very simple programming languages: a domain specific language for string matching, called *Regular Expressions*, and a general purpose imperative programming language called *While*.  In each case, we will study their:
-  * *Syntax and semantics:* how to describe the programming language mathematically.
-  * *Expressive power:* how to understand the limitations of the programming language by proving theorems.
+This 20cp unit introduces you to some of the fundamentals of programming languages and the theory of computation.  Using mathematical techniques, we will study:
+  * *Syntax*: how to describe what constitutes a valid program in the given programming language and how to recognise one by parsing.
+  * *Semantics*: how to describe what valid programs in the language compute and how to interpret them.
+  * *Computability*: how to show that certain functions are or are not possible to implement in the given language, or in any programming language. 
 
-This unit gives you a taster of several important topics in theoretical computer science: [Programming Language Theory](https://en.wikipedia.org/wiki/Programming_language_theory), [Theory of Formal Languages](https://en.wikipedia.org/wiki/Formal_language) and [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory). It prepares you for courses in the programming languages theme in your third and fourth year, especially *COMS30040: Types and Lambda Calculus* and *COMSM0067: Advanced Topics in Programming Languages*, but it's primary purpose is to make you better at *thinking* about computer programs.
+This unit gives you a taster of several important topics in theoretical computer science: [Programming Language Theory](https://en.wikipedia.org/wiki/Programming_language_theory), [Theory of Formal Languages](https://en.wikipedia.org/wiki/Formal_language) and [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory). It prepares you for courses in the programming languages theme in your third and fourth year, especially *COMS30040: Types and Lambda Calculus* and *COMSM0067: Advanced Topics in Programming Languages*.
 
 * * *
 
 ![contacts](assets/icons8-smartphone-tablet-100.png){: .icon }
 ## Contacts
 
-The unit is run by François Dupressoir, Alex Kavvos and Steven Ramsay.
+The unit is run by Eddie Jones, Alex Kavvos and Steven Ramsay.
 
 {: .invisitable style="margin:2em 0em 0em 2em;"}
-|![Francois](Francois.jpg) |![Alex](Alex.jpg) |![Steven](wbc.jpg)  |
-| [François Dupressoir][1] | [Alex Kavvos][2] | [Steven Ramsay][3] |
+|![Eddie](assets/Eddie.png) |![Alex](assets/Alex.jpg) |![Steven](assets/wbc.jpg)  |
+| [Eddie Jones][1] | [Alex Kavvos][2] | [Steven Ramsay][3] |
 
-[1]: https://fdupress.net/
+[1]: https://ec-jones.github.io/
 [2]: https://www.lambdabetaeta.eu
 [3]: https://sjrsay.github.io
 
-Outside of lectures and labs, please reach out to us via the unit [Team](https://teams.microsoft.com/l/channel/19%3a2NEgj0jbvDp5YdVZoqdcuNkusuf8W4rNUDpeDcMclPE1%40thread.tacv2/General?groupId=c1248506-faa4-4027-8362-142951c82bcc&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b) rather than by email.  Feel free to ask questions about the unit material, how the units runs, or anything at all to do with programming language theory, formal language theory or computability right in the [General](https://teams.microsoft.com/l/channel/19%3a2NEgj0jbvDp5YdVZoqdcuNkusuf8W4rNUDpeDcMclPE1%40thread.tacv2/General?groupId=c1248506-faa4-4027-8362-142951c82bcc&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b) channel.  We love to hear what you are thinking!
+Outside of lectures and labs, please reach out to us via the unit [Team](https://teams.microsoft.com/l/channel/19%3AlnaU_NroshtKCKPoeLz_6Bs1Gdw2aoICitpIqA8C_yc1%40thread.tacv2/General?groupId=622f88b0-18f3-47c4-9c13-9b5707ece47b&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b) rather than by email.  Feel free to ask questions about the unit material, how the units runs, or anything at all to do with programming language theory, formal language theory or computability right in the General channel.  We love to hear what you are thinking!
 
 
 * * *
@@ -44,21 +45,19 @@ The unit is divided into three parts, each of which is run by one of the three l
 {: .pure-table-striped .pure-table}
 | Period | Lecturer | Topic |
 |:------:|:--------:|:------| 
-| Weeks 1-4    | Steven Ramsay | Regular Expressions |
-| Weeks 5,7  | François Dupressoir | While Language: Operational Semantics |
-| Weeks 8-11   | Alex Kavvos | While Language: Expressive Power  |
+| Weeks 1-4    | Steven Ramsay | Syntax        |
+| Weeks 5,7,8  | Eddie Jones   | Semantics     |
+| Weeks 9-11   | Alex Kavvos   | Computability |
 
 <br/>
 
 You should expect to spend around *12 hours per week* working on this unit.  There are 5 main activities (approximate time in parentheses, overall there is some slack):
 
-  * __Lectures (2 hr).__ There are two lectures each week, *Thursdays at 3pm* and *Fridays at 2pm in Chemistry LT1*. 
+  * __Lectures (2 hr).__ There are two lectures each week, *Tuesday at 10am* and *Fridays at 12noon*, both in Physics G42 Powell*. 
 
-  * __Q&A (1 hr).__ Except in Week 1, on Mondays at 10am, we have a lecture slot in the timetable, but we will use it as a Q&A session where you can ask about the problems from the previous week, or any of the material so far in the unit.  Like office hours, but on a larger scale.
+  * __Labs (2 hr).__  Except in Week 1, labs run every Thursday from 10am-12noon in MVB 2.11 and MVB 1.15.  There are both pen and paper problems and programming tasks to complete.  We have an excellent selection of teaching assistants on this unit, and their sole responsibility in each lab is to *help you*.  Some of the problems are not designed to be solved by a single person in a short amount of time, so you will need the help of the TAs and/or the help of your peers in order to solve them. 
 
-  * __Labs (2 hr).__  Except in Week 1, labs run every Monday from 11am-1pm in MVB 2.11 and MVB 1.15.  Most of the time, you will need pen and paper to work on the problems, occasionally you will want to do some (Haskell) programming.  We have an excellent selection of teaching assistants on this unit, and their sole responsibility in each lab is to *help you*.  Some of the problems are not designed to be solved by a single person in a short amount of time, so you will need the help of the TAs and/or the help of your peers in order to solve them. 
-
-  * __Problem sheets (2-6 hr).__ You will only learn on this unit by completing the problem sheets.  There is one sheet released each week.  You will spend time working on the sheets in labs, but you will likely need longer to complete them fully in your own time.
+  * __Problem sheets / programming tasks (2-6 hr).__ You will only learn on this unit by completing the problem sheets and programming tasks.  You will spend time working in labs, but you will likely need longer to complete them fully in your own time.
 
   <!-- * __Office hours (<1 hr).__ Each week there will be office hours with the lecturer, either online or in their office in MVB.  These will be irregular and advertised separately in each week. -->
 
@@ -73,18 +72,17 @@ You should expect to spend around *12 hours per week* working on this unit.  The
 
 The unit is distributed over four locations:
 
-* This [blackboard page][bb], which contains:
+* This Blackboard site, which contains:
     - the [welcome page](welcome.html), listing administrative information about the unit
     - the [detailed schedule](schedule.html), which gives brief lecture synopses, the problem sheets and their solutions
 
-* The [reference book][rf]{: target="_blank" }, which contains a reference version of technical material introduced in the lectures: you will need to refer to this when completing the problems.  
+* The [notes][rf]{: target="_blank" }, which contains a reference version of technical material introduced in the lectures: you will need to refer to this when completing the problems.  
 
 * The [team][te]{: target="_blank" }, where you post your questions and we do our best to answer them.
 
-[bb]: https://www.ole.bris.ac.uk/auth-saml/saml/login?apId=_183_1&redirectUrl=https%3A%2F%2Fwww.ole.bris.ac.uk%2Fwebapps%2Fblackboard%2Fexecute%2FcourseMain%3Fcourse_id%3D_247719_1
 [rf]: https://uob-coms20007.github.io/reference/
 [lc]: https://github.com/uob-coms20007/labcode
-[te]: https://teams.microsoft.com/l/channel/19%3a2NEgj0jbvDp5YdVZoqdcuNkusuf8W4rNUDpeDcMclPE1%40thread.tacv2/General?groupId=c1248506-faa4-4027-8362-142951c82bcc&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b
+[te]: https://teams.microsoft.com/l/channel/19%3AlnaU_NroshtKCKPoeLz_6Bs1Gdw2aoICitpIqA8C_yc1%40thread.tacv2/General?groupId=622f88b0-18f3-47c4-9c13-9b5707ece47b&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b
 
 * * *
 

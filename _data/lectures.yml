@@ -5,137 +5,137 @@
 #     - "The weird C programs are past winners of the [The International Obfuscated C Code Contest](https://www.ioccc.org/): [burton](https://www.ioccc.org/2020/burton/prog.c), [kurdyukov3](https://www.ioccc.org/2020/kurdyukov3/prog.c) and [endoh3](https://www.ioccc.org/2020/endoh3/prog.c)."
 
 
-- title: Introduction
-  description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
-  refs:
+# - title: Introduction
+#   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
+#   refs:
 
-- title: String Grammars
-  description: Context-free grammars as a device for representing a language.  Motivation for abstract syntax trees.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/fd334b02b8ed4f93aea1c9d1816352b41d
-  refs:
+# - title: String Grammars
+#   description: Context-free grammars as a device for representing a language.  Motivation for abstract syntax trees.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/fd334b02b8ed4f93aea1c9d1816352b41d
+#   refs:
 
-- title: Abstract Syntax
-  description: In this first Monday Q&A, rather than take questions, we continued covering material needed for the labs.  Abstract syntax trees, tree grammars and how to write trees as inline expressions - precedence and association as conventions for omitting parens. 
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/b300b11c138d4faca0a0d686963fb49f1d
-  refs:
+# - title: Abstract Syntax
+#   description: In this first Monday Q&A, rather than take questions, we continued covering material needed for the labs.  Abstract syntax trees, tree grammars and how to write trees as inline expressions - precedence and association as conventions for omitting parens. 
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/b300b11c138d4faca0a0d686963fb49f1d
+#   refs:
 
-- title: Regex Syntax
-  description: We defined the abstract syntax of regular expressions and discussed the meaning informally.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/69453f57ea2a4d218b24596119d920ea1d
-  refs:
-    - https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
-    - https://www.computerhistory.org/brochures/doc-43729570aadb0/
+# - title: Regex Syntax
+#   description: We defined the abstract syntax of regular expressions and discussed the meaning informally.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/69453f57ea2a4d218b24596119d920ea1d
+#   refs:
+#     - https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
+#     - https://www.computerhistory.org/brochures/doc-43729570aadb0/
 
-- title: Regex Semantics
-  description: The big step operational semantics of regular expressions, i.e. the relation "matches".  Rules, instantiation of rules and glueing instances of rules together to make a proof tree or derivation.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/013f845f4f984eeca5c6f02ed7fbe8b21d
-  refs:
+# - title: Regex Semantics
+#   description: The big step operational semantics of regular expressions, i.e. the relation "matches".  Rules, instantiation of rules and glueing instances of rules together to make a proof tree or derivation.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/013f845f4f984eeca5c6f02ed7fbe8b21d
+#   refs:
 
-- title: Q&A 1
-  description: We talked about how you should think about matching regular expressions and strings, we went through some of the examples from the lectures again in more detail and we discussed what you should do when your proof trees get too large.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/2f4eccbc628849fb980955746570c54e1d
-  refs:
+# - title: Q&A 1
+#   description: We talked about how you should think about matching regular expressions and strings, we went through some of the examples from the lectures again in more detail and we discussed what you should do when your proof trees get too large.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/2f4eccbc628849fb980955746570c54e1d
+#   refs:
 
-- title: Finite Automata
-  description: Examples of finite automata, runs and accepting, the formal definition and tips on how to construct them.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/9115168e0240486fa7cbbd22da55c7441d
-  refs:
+# - title: Finite Automata
+#   description: Examples of finite automata, runs and accepting, the formal definition and tips on how to construct them.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/9115168e0240486fa7cbbd22da55c7441d
+#   refs:
 
-- title: Kleene's Theorem
-  description: We looked at an example of an automaton for computing the addition of two numbers (really for recognising the graph of the addition function).  We considered Kleene's Theorem, and I sketched the algorithms that compute a regex from a DFA and vice versa.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/374f56975801409883e5a9a05cc9d4591d
-  refs:
+# - title: Kleene's Theorem
+#   description: We looked at an example of an automaton for computing the addition of two numbers (really for recognising the graph of the addition function).  We considered Kleene's Theorem, and I sketched the algorithms that compute a regex from a DFA and vice versa.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/374f56975801409883e5a9a05cc9d4591d
+#   refs:
 
-- title: Q&A 2
-  description: We talked about how to go about answering tricky regex construction questions, including if there is a mechanical process that one can follow.  We also looked in more detail at an example automaton construction problem that I started in the lectures.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/a58d160d793d4a14a72145615d818dfc1d
-  refs:
+# - title: Q&A 2
+#   description: We talked about how to go about answering tricky regex construction questions, including if there is a mechanical process that one can follow.  We also looked in more detail at an example automaton construction problem that I started in the lectures.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/a58d160d793d4a14a72145615d818dfc1d
+#   refs:
 
-- title: Matched Parens not Regular
-  description: We gave a name to the class of languages that one can express using regex (which is the same as the class that one can express using DFA), called Regular.  We proved that the language of matched parentheses is not regular.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/c42d14daff7f42c18c0f6b1f18a6e4f51d
-  refs:
+# - title: Matched Parens not Regular
+#   description: We gave a name to the class of languages that one can express using regex (which is the same as the class that one can express using DFA), called Regular.  We proved that the language of matched parentheses is not regular.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/c42d14daff7f42c18c0f6b1f18a6e4f51d
+#   refs:
 
-- title: Pumping Lemma
-  description: The pumping lemma was introduced, I argued why it is true and then gave an example of how to use it.  Unfortunately, despite by best efforts at the start of the lecture, I was not able to coax the Replay system into filming both boards.  So the left board is not visible, but all it contained was a statement of the pumping lemma, and that is available in the reference material.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/9cbeeb63b519406f8f59eb92f1f44fd01d
-  refs:
+# - title: Pumping Lemma
+#   description: The pumping lemma was introduced, I argued why it is true and then gave an example of how to use it.  Unfortunately, despite by best efforts at the start of the lecture, I was not able to coax the Replay system into filming both boards.  So the left board is not visible, but all it contained was a statement of the pumping lemma, and that is available in the reference material.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/9cbeeb63b519406f8f59eb92f1f44fd01d
+#   refs:
 
-- title: Q&A 3
-  description: There were no questions today.
-  replay:
-  refs:
+# - title: Q&A 3
+#   description: There were no questions today.
+#   replay:
+#   refs:
 
-- title: Syntax and Semantics of Expressions
-  description: We discussed a new language, and briefly justified the study of its syntax and semantics. We then started defining those, bottom-up, relying on the concepts of abstract syntax trees, tree grammars and derivations introduced much earlier by Steven.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/24e1abc694af4d5ca1d9e4a4fc05a0231d
-  refs:
+# - title: Syntax and Semantics of Expressions
+#   description: We discussed a new language, and briefly justified the study of its syntax and semantics. We then started defining those, bottom-up, relying on the concepts of abstract syntax trees, tree grammars and derivations introduced much earlier by Steven.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/24e1abc694af4d5ca1d9e4a4fc05a0231d
+#   refs:
 
-- title: Syntax and Semantics of While Statements
-  description: We carried on developing the syntax and semantics of the While language, making a stopover to discuss a neat way of defining inductive relations when they are in fact functional.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/f4ec087d31e6449d8ec78ecde62430ad1d
-  refs:
+# - title: Syntax and Semantics of While Statements
+#   description: We carried on developing the syntax and semantics of the While language, making a stopover to discuss a neat way of defining inductive relations when they are in fact functional.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/f4ec087d31e6449d8ec78ecde62430ad1d
+#   refs:
 
-- title: Q&A 4 — Structural Induction
-  description: We introduce the concept of structural induction as a generalisation of mathematical induction, and apply it to prove that the semantics of expressions is functional.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/098b560b3df94e55a1e7716b20d48c2c1d
-  refs:
+# - title: Q&A 4 — Structural Induction
+#   description: We introduce the concept of structural induction as a generalisation of mathematical induction, and apply it to prove that the semantics of expressions is functional.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/098b560b3df94e55a1e7716b20d48c2c1d
+#   refs:
 
-- title: Breaking Bad
-  description: We introduced and discussed the notion of safety of a programme, and started exploring what we can say about executions on abstract states (on which we know only some information). We focused on proving non-termination of Euclidean division.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/3dbcf498704e46319bafe1a48d3024e71d
-  refs:
+# - title: Breaking Bad
+#   description: We introduced and discussed the notion of safety of a programme, and started exploring what we can say about executions on abstract states (on which we know only some information). We focused on proving non-termination of Euclidean division.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/3dbcf498704e46319bafe1a48d3024e71d
+#   refs:
 
-- title: Correctness
-  description: We conclude our discussion of liveness and move onto discussions of correctness, where loop invariants once again take centre-stage.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/a78646253cf14c8e9afba2d55db553c61d
-  refs:
+# - title: Correctness
+#   description: We conclude our discussion of liveness and move onto discussions of correctness, where loop invariants once again take centre-stage.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/a78646253cf14c8e9afba2d55db553c61d
+#   refs:
 
-- title: Q&A 5
-  description: We mainly discussed why loop variants imply termination (soundness), and briefly why they are not implied by termination (incompleteness).
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/df2b177400314beb8023c0d7b32d87031d
-  refs:
+# - title: Q&A 5
+#   description: We mainly discussed why loop variants imply termination (soundness), and briefly why they are not implied by termination (incompleteness).
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/df2b177400314beb8023c0d7b32d87031d
+#   refs:
 
-- title: Computability
-  description: We introduce the notion of a computable function.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/b05968ff58114d259b2cf1192822c8361d
+# - title: Computability
+#   description: We introduce the notion of a computable function.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/b05968ff58114d259b2cf1192822c8361d
     
-- title: Decidable and Semi-decidable Predicates
-  description: Suppose we decide that we like a set of numbers. We define what it means for a computer to be able to recognise it.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/7bf400e5642a45f499c234e5d23baa671d
+# - title: Decidable and Semi-decidable Predicates
+#   description: Suppose we decide that we like a set of numbers. We define what it means for a computer to be able to recognise it.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7bf400e5642a45f499c234e5d23baa671d
     
-- title: Q&A 6
-  description: After various minutiae, we did a proof that the semantics of arithmetic expressions do not depend on variables that do not occur in them.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e001a6a97f574dcf91b53290880f031e1d
+# - title: Q&A 6
+#   description: After various minutiae, we did a proof that the semantics of arithmetic expressions do not depend on variables that do not occur in them.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/e001a6a97f574dcf91b53290880f031e1d
     
-- title: Bijections etc.
-  description: We discuss how to reduce all sorts of data to natural numbers.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/4533c561c1cc4a859c2a27e4a5c235181d
+# - title: Bijections etc.
+#   description: We discuss how to reduce all sorts of data to natural numbers.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/4533c561c1cc4a859c2a27e4a5c235181d
     
-- title: Encoding first-order data
-  description: Arriving at an encoding of all kinds of first-order data as natural numbers, we argue that it is possible to encode While programs themselves as numbers.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/1175d20d41b740f6b8796c714482f28c1d
+# - title: Encoding first-order data
+#   description: Arriving at an encoding of all kinds of first-order data as natural numbers, we argue that it is possible to encode While programs themselves as numbers.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/1175d20d41b740f6b8796c714482f28c1d
 
-- title: Q&A 7
-  description: A couple of questions answered.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/0c7f79153d9f47bc84052a98bc97efd41d
+# - title: Q&A 7
+#   description: A couple of questions answered.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/0c7f79153d9f47bc84052a98bc97efd41d
     
-- title: While eats itself
-  description: We introduce the idea that an interpreter for While can be written in itself, and then state the Church-Turing thesis.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/cb6edf668a1c49b1900638851b41785b1d
+# - title: While eats itself
+#   description: We introduce the idea that an interpreter for While can be written in itself, and then state the Church-Turing thesis.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/cb6edf668a1c49b1900638851b41785b1d
 
-- title: The Halting Problem
-  description: Alan Turing's theorem shows that a certain set is undecidable.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e44a071bc2a2420b90c7909ffdda57ef1d
+# - title: The Halting Problem
+#   description: Alan Turing's theorem shows that a certain set is undecidable.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/e44a071bc2a2420b90c7909ffdda57ef1d
 
-- title: No Q&A
-  description:
+# - title: No Q&A
+#   description:
 
-- title: Reductions
-  description: We show how to reduce the Halting Problem to more complicated ones, therefore proving they are undecidable as well.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/a4c26a7387b442ea9396ab805211ba751d
+# - title: Reductions
+#   description: We show how to reduce the Halting Problem to more complicated ones, therefore proving they are undecidable as well.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/a4c26a7387b442ea9396ab805211ba751d
     
-- title: Rice's Theorem
-  description: We show that no perfect static analysis is decidable.
-  replay: https://mediasite.bris.ac.uk/Mediasite/Play/ee98299f1fbc4b48b9e17af68cb9ef861d
+# - title: Rice's Theorem
+#   description: We show that no perfect static analysis is decidable.
+#   replay: https://mediasite.bris.ac.uk/Mediasite/Play/ee98299f1fbc4b48b9e17af68cb9ef861d

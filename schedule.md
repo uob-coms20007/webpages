@@ -3,16 +3,6 @@ layout: default
 title: schedule
 ---
 
-{% capture nowunix %}{{'now' | date: '%s' }}{% endcapture %}
-{% capture weekunix %}{{ 60 | times: 60 | times: 24 | times: 7 }}{% endcapture %}
-{% capture startunix  %}{{ '2021-09-27' | date: '%s'  }}{% endcapture %}
-
-{% assign question_sheets = site.static_files | where: "question", true %}
-{% assign answer_sheets = site.static_files | where: "answer", true %}
-
-{% assign question_names = question_sheets | map: "basename" | join: "," | remove: "sheet" %}
-{% assign answer_names = answer_sheets | map: "basename" | join: "," | remove: "sheet" %}
-
 <img class="icon" src="assets/icons8-schedule-100.png"/>
 <h2>At a glance</h2>
 
@@ -23,10 +13,9 @@ title: schedule
   <thead>
     <tr> 
       <th style="text-align:center">University<br>Week</th>
-      <th style="text-align:center">Monday 10am Q&A<br><span style="font-weight:normal;font-style:italic">(Queens 1.40)</span></th>
-      <th style="text-align:center">Monday 11am Lab<br><span style="font-weight:normal;font-style:italic">(MVB 2.11/1.15)</span></th>
-      <th style="text-align:center">Thursday 3pm Lecture<br><span style="font-weight:normal;font-style:italic">(PHYS G.42)</span></th>
-      <th style="text-align:center">Friday 3pm Lecture<br><span style="font-weight:normal;font-style:italic">(Queens 1.40)</span></th>
+      <th style="text-align:center">Tuesday 10am Lecture <br><span style="font-weight:normal;font-style:italic">(PHYS G.42)</span></th>
+      <th style="text-align:center">Thursday 10am Lab<br><span style="font-weight:normal;font-style:italic">(MVB 2.11/1.15)</span></th>
+      <th style="text-align:center">Friday 12noon Lecture<br><span style="font-weight:normal;font-style:italic">(PHYS G.42)</span></th>
     </tr>
   </thead>
   <tbody>
@@ -45,14 +34,16 @@ title: schedule
     </tr>
   {% else %}
     <tr> 
-    {% assign lec_one_idx = logical_week | minus:1 | times:3 | minus:1 %}
-      <td style="text-align:center"><a href="#lecture{{ lec_one_idx | plus: 1 }}">Week {{ calendar_week }}</a></td>
+    {% assign lec_one_idx = logical_week | minus:1 | times:2 %}
+      <!-- University week number -->
+      <td style="text-align:center">Week {{ calendar_week }}</td>
+      <!-- Lecture 1 -->
       <td style="text-align:center"> 
-    {% if calendar_week == 1 %}n / a
-    {% elsif site.data.lectures[lec_one_idx] %}
+      {% if site.data.lectures[lec_one_idx] %}
         <a href="#lecture{{ lec_one_idx | plus:1 }}">{{ site.data.lectures[lec_one_idx].title }}</a>
-    {% endif %}
+      {% endif %}
       </td>  
+      <!-- Lab -->
       <td style="text-align:center">
     {% if calendar_week == 1 %}n / a{% endif %}
     {% capture qns_name %}/questions/sheet{{ calendar_week }}.pdf{% endcapture %}
@@ -74,16 +65,11 @@ title: schedule
         / <a href="{{ ans_name | remove_first: "/" }}" target="_blank">ans</a>  
     {% endif %}
       </td>
+      <!-- Lecture 2 -->
       <td style="text-align:center">
-    {% assign lec_two_idx = logical_week | minus:1 | times:3 %}
+    {% assign lec_two_idx = logical_week | minus:1 | times:2 | plus:1 %}
     {% if site.data.lectures[lec_two_idx] %}
         <a href="#lecture{{ lec_two_idx | plus:1 }}">{{ site.data.lectures[lec_two_idx].title }}</a>
-    {% endif %}
-      </td>
-      <td style="text-align:center"> 
-    {% assign lec_three_idx = logical_week | minus:1 | times:3 | plus:1 %}
-    {% if site.data.lectures[lec_three_idx] %}
-        <a href="#lecture{{ lec_three_idx | plus:1 }}">{{ site.data.lectures[lec_three_idx].title }}</a>
     {% endif %}
       </td>
     </tr>
@@ -134,13 +120,15 @@ title: schedule
 
 <h3 id="lecture{{ lec_num }}">
   {% if lec.replay %}[<a href="{{lec.replay}}" target="_blank">REPLAY</a>]{% endif %} 
-  {% assign week_posn = lec_num | modulo: 3 %}
-  {% if lec_num <= 14 %}
-    {% assign week = lec_num | divided_by: 3 | plus: 1 %}
+  {% assign week_posn = lec_num | modulo: 2 %}
+  {% if lec_num <= 10 %}
+    <!-- Before reading week -->
+    {% assign week = lec_num | plus: 1 | divided_by: 2 %}
   {% else %}
-    {% assign week = lec_num | divided_by: 3 | plus: 2 %}
+    <!-- After reading week -->
+    {% assign week = lec_num | plus: 1 | divided_by: 2 | plus: 1 %}
   {% endif %}
- Week {{week}}, {% if week_posn == 1 %}Thursday{% elsif week_posn == 2 %}Friday{% else %}Monday{% endif %}: {{ lec.title }}
+ Week {{week}}, {% if week_posn == 1%}Tuesday{% elsif week_posn == 0 %}Friday{% endif %}: {{ lec.title }}
 </h3>
 <p>
   {{ lec.description | markdownify }}
