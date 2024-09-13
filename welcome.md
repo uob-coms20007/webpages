@@ -57,7 +57,9 @@ You should expect to spend around *12 hours per week* working on this unit.  The
 
   * __Labs (2 hr).__  Except in Week 1, labs run every Thursday from 10am-12noon in MVB 2.11 and MVB 1.15.  There are both pen and paper problems and programming tasks to complete.  We have an excellent selection of teaching assistants on this unit, and their sole responsibility in each lab is to *help you*.  Some of the problems are not designed to be solved by a single person in a short amount of time, so you will need the help of the TAs and/or the help of your peers in order to solve them. 
 
-  * __Problem sheets / programming tasks (2-6 hr).__ You will only learn on this unit by completing the problem sheets and programming tasks.  You will spend time working in labs, but you will likely need longer to complete them fully in your own time.
+  * __Office Hours (1 hr).__ Each of the lecturers will advertise office hours each week, where you can drop-in if you have some question that is best answered in person.
+
+  * __Problem sheets / programming tasks in your own time (2-6 hr).__ You will only learn on this unit by completing the problem sheets and programming tasks.  You will spend time working in labs, but you will likely need longer to complete them fully in your own time.
 
   <!-- * __Office hours (<1 hr).__ Each week there will be office hours with the lecturer, either online or in their office in MVB.  These will be irregular and advertised separately in each week. -->
 
