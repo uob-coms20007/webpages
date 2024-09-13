@@ -48,6 +48,7 @@ title: schedule
     {% if calendar_week == 1 %}n / a{% endif %}
     {% capture qns_name %}/questions/sheet{{ calendar_week }}.pdf{% endcapture %}
     {% capture ans_name %}/answers/sheet{{ calendar_week }}.pdf{% endcapture %}
+    {% capture lab_name %}/questions/lab{{ calendar_week }}.pdf{% endcapture %}
     {% assign qns = false %}
     {% assign ans = false %}
     {% for static_file in site.static_files %}
@@ -57,7 +58,13 @@ title: schedule
       {% if static_file.path == ans_name %}
         {% assign ans = true %}
       {% endif %}
+      {% if static_file.path == lab_name %}
+        {% assign lab = true %}
+      {% endif %}
     {% endfor %}
+    {% if lab %}
+        <a href="{{ lab_name | remove_first: "/" }}" target="_blank">lab</a>
+    {% endif %}
     {% if qns %}
         <a href="{{ qns_name | remove_first: "/" }}" target="_blank">qns</a>  
     {% endif  %}
