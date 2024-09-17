@@ -40,7 +40,7 @@ title: schedule
       <!-- Lecture 1 -->
       <td style="text-align:center"> 
       {% if site.data.lectures[lec_one_idx] %}
-        <a href="#lecture{{ lec_one_idx | plus:1 }}">{{ site.data.lectures[lec_one_idx].title }}</a>
+        <a href="schedule.html#lecture{{ lec_one_idx | plus:1 }}">{{ site.data.lectures[lec_one_idx].title }}</a>
       {% endif %}
       </td>  
       <!-- Lab -->
@@ -76,7 +76,7 @@ title: schedule
       <td style="text-align:center">
     {% assign lec_two_idx = logical_week | minus:1 | times:2 | plus:1 %}
     {% if site.data.lectures[lec_two_idx] %}
-        <a href="#lecture{{ lec_two_idx | plus:1 }}">{{ site.data.lectures[lec_two_idx].title }}</a>
+        <a href="schedule.html#lecture{{ lec_two_idx | plus:1 }}">{{ site.data.lectures[lec_two_idx].title }}</a>
     {% endif %}
       </td>
     </tr>
