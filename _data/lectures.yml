@@ -4,6 +4,9 @@
 #   old_refs:
 #     - "The weird C programs are past winners of the [The International Obfuscated C Code Contest](https://www.ioccc.org/): [burton](https://www.ioccc.org/2020/burton/prog.c), [kurdyukov3](https://www.ioccc.org/2020/kurdyukov3/prog.c) and [endoh3](https://www.ioccc.org/2020/endoh3/prog.c)."
 
+- title: Introduction
+  description: Introduction to the themes of the unit and its organisation.  Notation for strings and some examples of how we talk about the structure of strings using variables and concatenation.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/984b466fb2af40899c4a1594e2340c011d
 
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
