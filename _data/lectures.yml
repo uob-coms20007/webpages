@@ -8,6 +8,10 @@
   description: Introduction to the themes of the unit and its organisation.  Notation for strings and some examples of how we talk about the structure of strings using variables and concatenation.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/984b466fb2af40899c4a1594e2340c011d
 
+- title: Reading CFGs
+  description: How to understand Context-Free Grammars as a mechanism for describing languages; their anatomy and examples of deriving strings.  A look at CFGs for C and Java.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/cf8d7c469a484b8da218a1ea4fd8e6481d
+
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
 #   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
