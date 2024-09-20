@@ -10,6 +10,10 @@
         var height = document.getElementsByTagName("html")[0].scrollHeight;
         parent.postMessage(["setHeight", height], "*"); 
       }
+      function doScroll(x) {
+        var offset = document.getElementById(x).offsetTop;
+        parent.postMessage(["scroll", offset], "*");
+      }
     </script>
   </head>
   <body onload="resize();">
