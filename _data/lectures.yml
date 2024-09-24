@@ -12,6 +12,10 @@
   description: How to understand Context-Free Grammars as a mechanism for describing languages; their anatomy and examples of deriving strings.  A look at CFGs for C and Java.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/cf8d7c469a484b8da218a1ea4fd8e6481d
 
+- title: Writing CFGs
+  description: Formal definitions relating to CFGs, what constitutes a CFG and what constitutes a derivation.  Some examples of languages and how to design CFGs to express them.  Note, there is an error in the final example, the language should have been all strings that can be cut into two pieces of equal length such that the first is different from the reverse of the second (the language mentioned in the lecture is also context free, but a bit more tricky to describe).  
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/613833b9bd6a4192aa3821f08b2157441d
+
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
 #   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
