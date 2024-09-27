@@ -51,6 +51,7 @@ title: schedule
     {% capture lab_name %}/questions/lab{{ calendar_week }}.pdf{% endcapture %}
     {% assign qns = false %}
     {% assign ans = false %}
+    {% assign lab = false %}
     {% for static_file in site.static_files %}
       {% if static_file.path == qns_name %}
         {% assign qns = true %}
