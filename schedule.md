@@ -63,7 +63,7 @@ title: schedule
       {% endif %}
     {% endfor %}
     {% if lab %}
-        <a href="{{ lab_name | remove_first: "/" }}" target="_blank">lab</a>
+        <a href="{{ lab_name | remove_first: "/" }}" target="_blank">lab</a> / 
     {% endif %}
     {% if qns %}
         <a href="{{ qns_name | remove_first: "/" }}" target="_blank">qns</a>  
