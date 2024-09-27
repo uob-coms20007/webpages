@@ -16,6 +16,10 @@
   description: Formal definitions relating to CFGs, what constitutes a CFG and what constitutes a derivation.  Some examples of languages and how to design CFGs to express them.  Note, there is an error in the final example, the language should have been all strings that can be cut into two pieces of equal length such that the first is different from the reverse of the second (the language mentioned in the lecture is also context free, but a bit more tricky to describe).  
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/613833b9bd6a4192aa3821f08b2157441d
 
+- title: Lexical Analysis
+  description: Lexing as a preprocessing step before parsing.  Tokens and lexemes.  Showing an example of implementing a lexer for Boolean expressions in OCaml.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/5136864364404ef8831644fcb5f4e7c11d
+
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
 #   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
