@@ -20,7 +20,7 @@
   description: Lexing as a preprocessing step before parsing.  Tokens and lexemes.  Showing an example of implementing a lexer for Boolean expressions in OCaml.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/5136864364404ef8831644fcb5f4e7c11d
 
-- title: LL(1)
+- title: LL(1) Grammars
   description: Predictive parsing as a technique for determining membership in the language of a grammar and LL(1), a subclass of grammars for which predictive parsing is possible.  Nullable, First and Follow.  Parse tables.  Grammars whose parse tables have at most one rule in each cell are LL(1).
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/b630bcae8d7f4c58b127a00cbbeb30961d
 # - title: Introduction
