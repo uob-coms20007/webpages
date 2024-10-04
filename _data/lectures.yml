@@ -23,6 +23,10 @@
 - title: LL(1) Grammars
   description: Predictive parsing as a technique for determining membership in the language of a grammar and LL(1), a subclass of grammars for which predictive parsing is possible.  Nullable, First and Follow.  Parse tables.  Grammars whose parse tables have at most one rule in each cell are LL(1).
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/b630bcae8d7f4c58b127a00cbbeb30961d
+
+- title: Recognising & ASTs
+  description: Recipe for writing a predictive "parser" based on a parse table for an LL(1) grammar.  Abstract syntax trees (ASTs) as a convenient internal representation for program syntax.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/0b1508a4e17d48a3b16a0da7e8c8ff2f1d
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
 #   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
