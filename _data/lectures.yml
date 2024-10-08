@@ -30,6 +30,7 @@
 
 - title: ASTs in Parsing
   description: Modifying the recogniser code to construct ASTs for strings that are in the language.  Associativity of operators and their ASTs.  The problem of left recursion in grammars for predictive parsing and how to reformulate it.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/a4ff2f2e4d7d4e3aa887b5498a9fe2121d
 
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
