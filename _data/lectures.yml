@@ -36,6 +36,12 @@
   description: How to think about removing problematic left recursion.  How to do left factoring to remove problematic common prefixes.  How to deal with chains of mixed operators when constructing an AST (i.e. operator precedence, and stratifying the grammar).
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/136081e42dd045e192becd8723f5300f1d
 
+- title: Denotational Semantics
+  description: Introduction to semantics and the denotational semantics for arithmetic and Boolean expressions.
+
+- title: Proof by Induction
+  description: How proof by induction can be applied to expressions and how it can used to reason about them.
+
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
 #   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
