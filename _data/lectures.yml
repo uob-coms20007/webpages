@@ -37,7 +37,8 @@
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/136081e42dd045e192becd8723f5300f1d
 
 - title: Denotational Semantics
-  description: Introduction to semantics and the denotational semantics for arithmetic and Boolean expressions.
+  description: Introduction to semantics as a subject, and the denotational semantics for arithmetic and Boolean expressions.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/97e1047301664300bb74e4687edae4781d
 
 - title: Proof by Induction
   description: How proof by induction can be applied to expressions and how it can used to reason about them.
