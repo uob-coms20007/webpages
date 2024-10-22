@@ -29,8 +29,21 @@ title: schedule
     {% assign logical_week = calendar_week | minus: 1 %}
   {% endif %}
   {% if calendar_week == 6 %}
+    {% assign qns_path = "/questions/rev6.pdf" %}
+    {% assign ans_path = "/answers/rev6.pdf" %}
+    {% assign qns = site.static_files | where: "path", qns_path | first %}
+    {% assign ans = site.static_files | where: "path", ans_path | first %}
     <tr>
-      <td colspan="5" style="text-align:center">Reading Week</td>
+      <td colspan="5" style="text-align:center">
+        Reading Week 
+          {% if qns %}
+            (Revision <a href="{{ qns_path | remove_first: "/" }}" target="_blank">qns</a>
+              {% if ans %}
+                / <a href="{{ ans_path | remove_first: "/" }}" target="_blank">ans</a>
+              {% endif %}
+            )
+          {% endif %}
+      </td>
     </tr>
   {% else %}
     <tr> 
