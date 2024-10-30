@@ -42,11 +42,11 @@
 
 - title: Proof by Induction
   description: How proof by induction can be applied to expressions and how it can used to reason about them.
-  reply: https://mediasite.bris.ac.uk/Mediasite/Play/192591b69da1432181ffb6fb6d02c4021d
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/192591b69da1432181ffb6fb6d02c4021d
 
 - title: Operational Semantics
   description: Definition of operational semantics, derivations, and how to execute a program uses these definitions.
-  reply: https://mediasite.bris.ac.uk/Mediasite/Play/daec7669879443d9ba18543302f7a2211d
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/daec7669879443d9ba18543302f7a2211d
 
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
