@@ -48,6 +48,10 @@
   description: Definition of operational semantics, derivations, and how to execute a program uses these definitions.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/daec7669879443d9ba18543302f7a2211d
 
+- title: Reasoning about Derivations
+  description: Proving programs terminate using induction and the inversion principle.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e63a127064a84ac5bb109282d63634f51d
+
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
 #   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
