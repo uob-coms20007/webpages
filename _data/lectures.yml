@@ -56,6 +56,10 @@
   description: The induction principle for While programs and how it can be used to prove that the operational semantics is functional.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/954dd939fcab4a0692f64ea659541dc31d
 
+- title: Semantic Equivalence & Hoare logic
+  description: Revisiting semantic equivalence for operational semantics, the inversion principle, and bonus material on Hoare logic (unassessed).
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e351f5ad01134138a7c80d8dcb93ced21d
+
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
 #   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
