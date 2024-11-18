@@ -64,6 +64,10 @@
   description: We define what it means for a function to be computable, and for a predicate to be (semi-)decidable.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/45ac04f26de44ea0b3a106c5cc8c44311d
 
+- title: Encoding first-order data
+  description: Computability is only defined for numbers, but we can encode all sorts of data as numbers.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/a533b6d0218c4dbc90c5551fd241ed061d
+
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
 #   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
