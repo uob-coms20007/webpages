@@ -19,7 +19,7 @@ The exam is a series of problems to solve in the same style as the weekly proble
 * 1* and 2* questions account for approximately 70% of available marks.
 * 1\*, 2\* and 3* questions account for approximately 100% of available marks.
 
-Unfortunately, this is not quite true for the practice paper linked above, because we had to assemble it from a number of sources due to changes in the material taught this year.  Partial marks are given for partially correct answers.  This is important, because you are unlikely to answer all the 3* question(s) completely correctly in the given time, but it is possible to obtain some marks for an attempt.
+Unfortunately, this is not quite true for the practice paper below, due to the way it was assembled.  Partial marks are given for partially correct answers.  This is important, because you are unlikely to answer all the 3* question(s) completely correctly in the given time, but it is possible to obtain some marks for an attempt.
 
 The distribution of marks by topic is as follows:
 * 40 marks are available for questions on regular expressions, automata and regular languages.
@@ -29,44 +29,45 @@ The distribution of marks by topic is as follows:
 However, *you should make sure you are confident on all topics* because the exam will contain 1*, 2* and 3* questions within each of these topics.
 
 Typical examples of the shape of 1* questions (mostly mechanical tasks that require careful use of definitions but very little insight):
-* Recall some simple facts about the definitions we have studied, such as the meaning of accepting state, decidable, abstract syntax tree, and so on.
-* Carry out some (mostly) mechanical procedure, e.g. drawing an abstract syntax tree, checking if some given syntax is valid, giving examples of strings matched by a regex, giving a derivation for a regex matching a string.
-* Writing a While program to achieve some simple specification.
-* Describing what a While program computes/what language a regex recognises.
+* Recall some simple facts about the definitions we have studied, and their consequences, such as the meaning of state, decidable, abstract syntax tree, injective, computable etc.
+* Deriving a string in a grammar, giving examples of strings in the language expressed by a grammar. 
+* Computing nullability of non-terminals, computing the first and follow sets, constructing a parse table for a grammar.
+* Writing a While program to achieve some simple specification, or to show computability of some function.
+* Distinguish different kinds of syntax in the While language, e.g. arithmetic vs Boolean expressions.
 * Deducing the final state after executing a While program from a given starting configuration.
+* Construct a derivation or find a final state for a given program in the While semantics.
+* Evaluate expressions in a given state.
 
 Typical examples of the shape of 2* questions (mostly constructing simple objects -- programs, equational proofs, derivations, automata etc -- to meet given requirements):
-* Construct a regex/automaton to recognise a given language/show that a language is regular.
-* Writing a While program to achieve some more complex specification.
-* Use the pumping lemma to show that a language is not regular.
-* Construct a derivation for a given program in the While semantics.
+* Construct a grammar to express a certain language.
+* Give an LL(1) grammar equivalent to a given grammar.
+* Reason symbolically about (extensions of) the While language, for example to show the equivalence of two given expressions / statements, including straightforward induction proofs.
+* Construct a derivation or find a final state for a given program in extensions of the While semantics.
+* Show that a (more complex) function is computable, by writing a While program.
 * Prove simple properties of functions/combinations of functions (injectivity, surjectivity etc).
 * Show that a predicate is decidable/semi-decidable.
 
-Some typical examples of the shape of 3* questions, but 3* questions are often atypical and of a shape that you may have never encountered before during the unit.
+A few typical examples of the shape of 3* questions, but 3* questions are often atypical and of a shape that you may have never encountered before during the unit.
+* More intricate induction proofs.
 * Show that a predicate is undecidable.
-* Show that regular languages are closed under a given operation.
-* Show that a language is regular, where there is some insight needed to first simplify the description of the language.
+* Show that a language can be expressed by a grammar, where there is some insight needed to first simplify the description of the language.
 * Prove, using an invariant/variant that a While program satisfies a given property.
 
 *Before the day of the exam, you should be confident in your ability to answer typical 1\* and 2\* questions.*
 
-General feedback sent to students on the overall performance in last years exam can be viewed [here](feedback.txt).  Note, the question numbers do not correspond directly to those in the practice paper (linked above) because the practice paper is not exactly the same as last year's exam, due to changes in the material taught for this year.
+General feedback sent to students on the overall performance in the 2023/24 exam, which had a high average mark, can be viewed [here](feedback23.txt).  General feedback on the 2022/23 exam, which had a relatively low average mark, can be viewed [here](feedback22.txt)  Two important notes:
 
+* We consider the 2022/23 exam and the 2023/24 exam to be the same difficulty, with differences in the average mark down to different student performance on average.  We expect the 2024/25 exam to have the same difficulty again.
+* The material for part 1 of the exam has changed completely this year, so this part of the feedback will not make sense to you.
+<!-- 
 * * *
 
 <img class="icon" src="assets/icons8-report-card-100.png"/>
-<h2>Practice Problems</h2>
-
-The practice exam is loosely based on last year's January exam, but modified because there are differences between the material taught last year and material taught this year.  One consequence of this is that new material for this year is not well covered by the practice exam or miscellaneous exam problems below, this includes:
-
-* Abstract syntax trees and grammars
-* Big-step semantics for Regex
-* Big-step semantics for While programs (was only briefly covered previously)
+<h2>Practice Problems</h2> -->
 
 <p>
   A practice exam: <a href="papers/exam.pdf" target="_blank">qns</a> / <a href="papers/exam-answers.pdf" target="_blank">ans</a>
 </p>
-<p>
+<!-- <p>
   Miscellaneous exam problems: <a href="questions/sheet13.pdf" target="_blank">qns</a> / <a href="answers/sheet13.pdf" target="_blank">ans</a>
-</p>
+</p> -->

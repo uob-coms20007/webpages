@@ -1,0 +1,22 @@
+Q1
+(a) This question was about identifying various parts of an example automaton. Generally excellent, most got full marks. Some deductions for particularly egregious misuse of notation.
+(b) This question asked you to give regexes to express certain languages. Generally very good. Many people forgot to include the possibility of the empty word as a word not ending in b, and forgot to include a and b as words not including aa and bb as substrings, for which a mark was deducted in each case.
+(c) This question asked you to prove that a language is not regular. Generally very good. A handful were deducted a mark for not writing their answer as an argument.
+(d) This question asked you to construct an automaton to accept words whose prefixes satisfied a particular property. Generally very good. Most realised the key was to track the difference between the numbers of 0 and 1 in the states of the automaton, which is a simple solution.
+(e) This question asked you about the regularity of the Turtle language. Answered well by many. Although Turtle has parentheses, it doesn't have arbitrary nesting of parentheses and so we were looking for you to write the same language using a regex or automaton.
+(f) This question asked you to show that every infinite regular language can be partitioned in a certain way. A small number of you successfully derived some infinite languages, and even disjoint infinite languages using the pumping lemma; and so were awarded partial marks. Only one student gave a completely correct argument.
+
+Q2
+(a) This question asked you to identify valid and invalid syntax. Usually well done, with the traps (associativity and strict syntax) working slightly better than intended. A larger than expected number of wrong answers because some interpreted "is" as "contains" (as in, x + y = 0 _is_ a boolean expression, but _contains_ several arithmetic expressions and a boolean expression).
+(b) This question asked you to give big-step derivations for an example program. Mostly very good. Introduce and use notations for long strings used regularly! Both parts were more time consuming than planned due to typos in the question.
+(c) This question asked you about derivations of a particular shape given by a skeleton. Roughly meets expectations for those who attempted. Common mistake includes thinking that the exponentiation programme works as a solution. (It does not since its loop body assigns twice.)
+(d) This question asked you to reason about termination and partial correctness. A number gave strong arguments, but did not distil them into invariants. A few gave direct proofs of correctness and liveness by mathematical induction; this ignores the point of the invariant/variant methodology, which is to abstract away the programme's execution so induction is _not_ needed. (Induction is used to argue or prove that the invariant-based methodology is sufficient.)
+(e) This question asked you about the semantics of the language extended with division. A few strong attempts, but no complete attempts. Proofs given were always missing an argument as to why the condition "all denominators are non-zero" carried through inductive cases. Many more simply ignored the condition.
+
+Q3
+(a) This question asked you to show that a particular function was computable. The code given was often particularly messy, and used constructs beyond WHILE, but students were not marked down for doing so.
+(b) This question asked you about facts to do with properties of functions. Was done well by the majority of students.
+(c) This question asked you about facts to do with computability. Presented some more difficulties; many students forgot that every decidable predicate is semi-decidable, even though it was proved in lectures; and many also believed that the computability of a function has an impact on its other properties (e.g. whether it is an injection or surjection).
+(d) This question asked you to show that a given predicate is semi-decidable. The explanation was reasonably well done, even though some students struggled to articulate it very clearly.
+(e) This question asked you to show that a given predicate on program codes is undecidable. There were some difficulties in applying Rice's theorem, both in spotting that it applied and also that its premises were fulfilled.
+(f) This question asked you to show that a given predicate on pairs of program codes is undecidable. More challenging, but it was generally well-done by a large proportion of students.
