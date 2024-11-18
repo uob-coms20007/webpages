@@ -22,8 +22,8 @@ The exam is a series of problems to solve in the same style as the weekly proble
 Unfortunately, this is not quite true for the practice paper below, due to the way it was assembled.  Partial marks are given for partially correct answers.  This is important, because you are unlikely to answer all the 3* question(s) completely correctly in the given time, but it is possible to obtain some marks for an attempt.
 
 The distribution of marks by topic is as follows:
-* 40 marks are available for questions on regular expressions, automata and regular languages.
-* 30 marks are available for questions on the syntax and semantics of the While language.
+* 40 marks are available for questions on syntax.
+* 30 marks are available for questions on semantics.
 * 30 marks are available for questions on computability.
 
 However, *you should make sure you are confident on all topics* because the exam will contain 1*, 2* and 3* questions within each of these topics.
