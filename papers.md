@@ -59,15 +59,9 @@ General feedback sent to students on the overall performance in the 2023/24 exam
 
 * We consider the 2022/23 exam and the 2023/24 exam to be the same difficulty, with differences in the average mark down to different student performance on average.  We expect the 2024/25 exam to have the same difficulty again.
 * The material for part 1 of the exam has changed completely this year, so this part of the feedback will not make sense to you.
-<!-- 
-* * *
 
-<img class="icon" src="assets/icons8-report-card-100.png"/>
-<h2>Practice Problems</h2> -->
+A practice exam: <a href="papers/exam.pdf" target="_blank">qns</a> / <a href="papers/exam-answers.pdf" target="_blank">ans</a>
 
-<p>
-  A practice exam: <a href="papers/exam.pdf" target="_blank">qns</a> / <a href="papers/exam-answers.pdf" target="_blank">ans</a>
-</p>
 <!-- <p>
   Miscellaneous exam problems: <a href="questions/sheet13.pdf" target="_blank">qns</a> / <a href="answers/sheet13.pdf" target="_blank">ans</a>
 </p> -->
