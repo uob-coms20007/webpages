@@ -42,7 +42,27 @@
 
 - title: Proof by Induction
   description: How proof by induction can be applied to expressions and how it can used to reason about them.
-  reply: https://mediasite.bris.ac.uk/Mediasite/Play/192591b69da1432181ffb6fb6d02c4021d
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/192591b69da1432181ffb6fb6d02c4021d
+
+- title: Operational Semantics
+  description: Definition of operational semantics, derivations, and how to execute a program uses these definitions.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/daec7669879443d9ba18543302f7a2211d
+
+- title: Reasoning about Derivations
+  description: Proving programs terminate using induction and the inversion principle.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e63a127064a84ac5bb109282d63634f51d
+
+- title: Reasoning about Derivations (cont.)
+  description: The induction principle for While programs and how it can be used to prove that the operational semantics is functional.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/954dd939fcab4a0692f64ea659541dc31d
+
+- title: Semantic Equivalence & Hoare logic
+  description: Revisiting semantic equivalence for operational semantics, the inversion principle, and bonus material on Hoare logic (unassessed).
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/e351f5ad01134138a7c80d8dcb93ced21d
+
+- title: Computability, decidability, and semi-decidability
+  description: We define what it means for a function to be computable, and for a predicate to be (semi-)decidable.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/45ac04f26de44ea0b3a106c5cc8c44311d
 
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
