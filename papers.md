@@ -57,7 +57,7 @@ A few typical examples of the shape of 3* questions, but 3* questions are often 
 
 General feedback sent to students on the overall performance in the 2023/24 exam, which had a high average mark, can be viewed [here](feedback23.txt).  General feedback on the 2022/23 exam, which had a relatively low average mark, can be viewed [here](feedback22.txt)  Two important notes:
 
-* We consider the 2022/23 exam and the 2023/24 exam to be the same difficulty, with differences in the average mark down to different student performance on average.  We expect the 2024/25 exam to have the same difficulty again.
+* We consider the 2022/23 exam and the 2023/24 exam to be the same difficulty, with differences in the average mark down to different student performance on average and slightly different conditions (e.g. the former did not come with an appendix containing all the important definitions).  We expect the 2024/25 exam to have the same difficulty again.
 * The material for part 1 of the exam has changed completely this year, so this part of the feedback will not make sense to you.
 
 A practice exam: <a href="papers/exam.pdf" target="_blank">qns</a> / <a href="papers/exam-answers.pdf" target="_blank">ans</a>
