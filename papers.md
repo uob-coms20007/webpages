@@ -6,7 +6,7 @@ title: papers
 ![report card](assets/icons8-report-card-100.png){: .icon } 
 ## Assessment
 
-The unit is 100% assessed by a written exam in the January exam period.
+The unit is 100% assessed by a 3-hour written exam in the Winter assessment period (i.e. the week following Week 12 of TB1).
 
 This exam is considered open book in the following sense:
 *Candidates may bring to the exam room 1 double-sided A4 page of notes in any format.*
@@ -28,7 +28,7 @@ The distribution of marks by topic is as follows:
 
 However, *you should make sure you are confident on all topics* because the exam will contain 1*, 2* and 3* questions within each of these topics.
 
-Typical examples of the shape of 1* questions (mostly mechanical tasks that require careful use of definitions but very little insight):
+Typical examples of the shape of 1* questions (mostly mechanical tasks that require careful use of definitions but very little insight, or recalling facts):
 * Recall some simple facts about the definitions we have studied, and their consequences, such as the meaning of state, decidable, abstract syntax tree, injective, computable etc.
 * Deriving a string in a grammar, giving examples of strings in the language expressed by a grammar. 
 * Computing nullability of non-terminals, computing the first and follow sets, constructing a parse table for a grammar.
@@ -38,7 +38,7 @@ Typical examples of the shape of 1* questions (mostly mechanical tasks that requ
 * Construct a derivation or find a final state for a given program in the While semantics.
 * Evaluate expressions in a given state.
 
-Typical examples of the shape of 2* questions (mostly constructing simple objects -- programs, equational proofs, derivations, automata etc -- to meet given requirements):
+Typical examples of the shape of 2* questions (mostly constructing simple objects -- programs, equational proofs, derivations, grammars etc -- to meet given requirements):
 * Construct a grammar to express a certain language.
 * Give an LL(1) grammar equivalent to a given grammar.
 * Reason symbolically about (extensions of) the While language, for example to show the equivalence of two given expressions / statements, including straightforward induction proofs.
