@@ -66,6 +66,7 @@
 
 - title: Encoding first-order data
   description: Computability is only defined for numbers, but we can encode all sorts of data as numbers.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/a533b6d0218c4dbc90c5551fd241ed061d
 
 - title: While Eats Itself
   description: Noticing that While programs are first-order data, we encode them as numbers. This allows us to write interprets for While (in While), and to ponder simulating every language in each other, leading to the Church-Turing thesis.
