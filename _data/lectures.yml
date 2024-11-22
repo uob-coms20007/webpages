@@ -72,6 +72,10 @@
   description: Noticing that While programs are first-order data, we encode them as numbers. This allows us to write interprets for While (in While), and to ponder simulating every language in each other, leading to the Church-Turing thesis.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/8a2efe22fb93417e8ad39d992bdeb8961d
 
+- title: The Halting Problem
+  description: We prove a theorem by Alan Turing, showing that not every function is computable.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/40745629e5ff4c75a57220dbea549c371d
+
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
 #   replay: https://mediasite.bris.ac.uk/Mediasite/Play/7b9ba39774484f3389867c2d7cd504f71d
