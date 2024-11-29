@@ -76,9 +76,13 @@
   description: We prove a theorem by Alan Turing, showing that not every function is computable.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/40745629e5ff4c75a57220dbea549c371d
 
-- title: Reductions
+- title: Reductions I
   description: We show how to reduce the Halting Problem to more complicated ones, therefore proving they are undecidable as well.
   replay: https://mediasite.bris.ac.uk/Mediasite/Play/08031e66b82e41f7b32e9053321561b41d
+
+- title: Reductions II and Rice's Theorem
+  description: We show a couple more reductions, and then state Rice's theorem, which proves that no perfect static analysis is decidable.
+  replay: https://mediasite.bris.ac.uk/Mediasite/Play/0c1be53451774cf09e915c502a2cc15c1d
 
 # - title: Introduction
 #   description: Introduction to the themes of the unit and how the unit runs.  Strings, concrete syntax and a preview of context-free string grammars.
