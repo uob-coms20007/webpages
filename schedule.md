@@ -46,8 +46,8 @@ title: schedule
       </td>
     </tr>
   {% elsif calendar_week == 12 %}
-    {% assign qns_path = "/questions/sheet12.pdf" %}
-    {% assign ans_path = "/answers/sheet12.pdf" %}
+    {% assign qns_path = "/questions/rev12.pdf" %}
+    {% assign ans_path = "/answers/rev12.pdf" %}
     {% assign qns = site.static_files | where: "path", qns_path | first %}
     {% assign ans = site.static_files | where: "path", ans_path | first %}
     <tr>
