@@ -35,9 +35,26 @@ title: schedule
     {% assign ans = site.static_files | where: "path", ans_path | first %}
     <tr>
       <td colspan="5" style="text-align:center">
-        Reading Week 
+        Revision Week 
           {% if qns %}
-            (Revision <a href="{{ qns_path | remove_first: "/" }}" target="_blank">qns</a>
+            (Syntax Revision <a href="{{ qns_path | remove_first: "/" }}" target="_blank">qns</a>
+              {% if ans %}
+                / <a href="{{ ans_path | remove_first: "/" }}" target="_blank">ans</a>
+              {% endif %}
+            )
+          {% endif %}
+      </td>
+    </tr>
+  {% elsif calendar_week == 12 %}
+    {% assign qns_path = "/questions/sheet12.pdf" %}
+    {% assign ans_path = "/answers/sheet12.pdf" %}
+    {% assign qns = site.static_files | where: "path", qns_path | first %}
+    {% assign ans = site.static_files | where: "path", ans_path | first %}
+    <tr>
+      <td colspan="5" style="text-align:center">
+        Revision Week 
+          {% if qns %}
+            (Semantics and Computability Revision <a href="{{ qns_path | remove_first: "/" }}" target="_blank">qns</a>
               {% if ans %}
                 / <a href="{{ ans_path | remove_first: "/" }}" target="_blank">ans</a>
               {% endif %}
